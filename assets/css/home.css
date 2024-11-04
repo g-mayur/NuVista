@@ -553,5 +553,8 @@
     border-top:1px solid var(--white-color);
     width:100%;
 }
+.get-touch-wrapper .get-in-details .get-card {
+    flex: 1;
+}
 /* END :: GET IN TOUCH */
 
