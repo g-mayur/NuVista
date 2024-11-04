@@ -6,7 +6,9 @@
     --white-color: #ffffff;
     --black-color: #404E69;
     --dark-color: #232323;
+    --dark-color-2: #253553;
     --border-color: #DDDDDD;
+    --placeholder: #888888;
 
     --font-family: 'TeXGyreAdventor'
 }
@@ -69,4 +71,56 @@ img {
 .btn.primary-btn img{
     width:20px;
     height:20px;
+}
+.form-wrapper .form-label{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px; 
+    margin-bottom:14px;
+    color:var(--black-color)
+}
+.form-wrapper input{
+    height:65px;
+    border:1px solid var(--border-color);
+    padding-left:20px;
+    padding-right:20px;
+    border-radius:12px;
+}
+.form-wrapper input:focus{
+    outline:none;
+    box-shadow:none;
+    border-color: var(--primary-color);
+}
+.form-wrapper textarea{
+    height:150px;
+    border:1px solid var(--border-color);
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius:12px;
+    resize: none;
+}
+.form-wrapper textarea:focus{
+    outline:none;
+    box-shadow:none;
+    border-color: var(--primary-color);
+}
+.form-wrapper input::placeholder, .form-wrapper textarea::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 42px;
+    color:var(--placeholder);
+    opacity: 1; 
+}
+.form-wrapper input::-ms-input-placeholder, .form-wrapper textarea::-ms-input-placeholder { 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 42px;
+    color:var(--placeholder);
+}
+.form-wrapper input::-webkit-input-placeholder, .form-wrapper textare::-webkit-input-placeholdera {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 42px;
+    color:var(--placeholder);
 }
