@@ -60,6 +60,21 @@
         border-bottom: 1px solid var(--white-color);
         width:100%
     }
+    .footer-wrapper .footer-logo ul li a {
+        width: 35px;
+        height: 35px;
+    }
+    .footer-wrapper .footer-logo ul li a img {
+        width: 22px;
+    }
+    .hero-banner-wrapper {
+        margin: 94px 0 0;
+    }
+    .hero-banner-wrapper .hero-title {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    
 }
 @media(max-width:1100.98px){
     .menu-wrapper {

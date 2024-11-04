@@ -49,6 +49,7 @@ a{
 }
 img {
     max-width: 100%;
+    transition: all 0.2s ease-in-out;
 }
 .bg-primary{
     background-color:var(--primary-color) !important;
@@ -62,11 +63,19 @@ img {
     gap:12px;
     padding:8px 16px;
     border-radius:100px;
-    white-space:nowrap
+    white-space:nowrap;
+    transition: all 0.3s ease-in-out;
 }
-.btn.primary-btn, .btn.primary-btn:hover{
+.btn.primary-btn{
     color:var(--white-color);
     background-color:var(--primary-color)
+}
+.btn.primary-btn:hover{
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
+}
+.btn.primary-btn:hover img{
+    filter: brightness(0) saturate(100%) invert(10%) sepia(5%) saturate(25%) hue-rotate(8deg) brightness(101%) contrast(91%);
 }
 .btn.primary-btn img{
     width:20px;
