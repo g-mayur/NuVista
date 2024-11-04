@@ -38,4 +38,19 @@ $(document).ready(function () {
       ]
     });
 
+        // Header animation js start
+        var t = 0;
+        $(window).scroll(function () {
+          var i = $(this).scrollTop();
+          if (i > t) {
+            $(".nv__header-wrap").addClass("slideOutUp");
+            $(".nv__header-wrap").removeClass("slide-down");
+          } else {
+            $(".nv__header-wrap").removeClass("slideOutUp");
+            $(".nv__header-wrap").addClass("slide-down");
+          }
+          t = i;
+        });
+        // Header animation js start
+
 });

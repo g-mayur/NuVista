@@ -68,7 +68,7 @@
 }
 .about-us-wrapper .para{
     font-size: 20px;
-    line-height: 30px;
+    line-height: 32px;
     font-weight: 400;
     color:var(--dark-color);
 }
@@ -105,6 +105,10 @@
 .cloud-solutions-wrapper .cloud-card:nth-child(2){
     border-left:1px solid var(--border-color);
     border-right:1px solid var(--border-color);
+}
+.cloud-solutions-wrapper .cloud-card:hover img{
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
 }
 /* END :: CLOUD SOLUTIONS, AWS EXPERTISE, AI INNOVATION */
 
@@ -408,6 +412,7 @@
     padding:0;
     background-color:var(--border-color);
     border-radius:100px;
+    transition: all 0.5s ease-in-out;
 }
 .client-say-slider .slick-dots li.slick-active button{
     width:42px;
@@ -447,7 +452,8 @@
     top: 0px;
     background-repeat: no-repeat;
     background-size: contain;
-    z-index:1
+    z-index:1;
+    transition: all 0.2s ease-in-out;
 }
 .accordion-button:not(.collapsed)::after {
     background-image:url('../images/icons/circle-minus.svg');
@@ -460,7 +466,8 @@
     top: 0px;
     background-repeat: no-repeat;
     background-size: contain;
-    z-index:1
+    z-index:1;
+    transition: all 0.2s ease-in-out;
 }
 .faq-wrapper .section-title{
     margin-bottom:28px
