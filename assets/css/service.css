@@ -191,7 +191,8 @@
 }
 .why-choose-wrapper .why-choose{
     display:block;
-    max-width:550px
+    max-width:550px;
+    width: 100%;
 }
 .why-choose-wrapper .choose-content{
     gap:36px
@@ -219,5 +220,16 @@
     font-size: 16px;
     line-height: 30px;
     color: var(--dark-color);
+}
+.why-choose-wrapper .choose-left{
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+.why-choose-wrapper .choose-right{
+    position:absolute;
+    right:0;
+    bottom:100px;
+    right: -10px;
 }
 /* END :: WHY CHOOSE OUR AWS MIGRATION SERVICES? */
