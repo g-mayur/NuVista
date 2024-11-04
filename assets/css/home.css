@@ -1,0 +1,204 @@
+/* START :: HERO BANNER */
+.hero-banner-wrapper{
+    background-color:var(--light-primary-color);
+}
+.hero-banner-wrapper .hero-title{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 66px;
+    color:var(--primary-color);
+}
+.hero-banner-wrapper .hero-sub-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 46px;
+    color:var(--secondary-color);
+    margin-bottom:8px
+}
+.hero-banner-wrapper .hero-content{
+    padding-top:126px;
+    padding-bottom:136px;
+}
+.hero-banner-wrapper .hero-content img{
+    margin-left:auto;
+    display:block;
+    max-width:600px
+}
+.hero-banner-wrapper:before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+    background-image: url(../images/home/hero-banner-object.svg);
+}
+/* END :: HERO BANNER */
+
+/* START :: ABOUT US */
+.about-us-wrapper .video-wrapper .video-img{
+    border-radius:8px;
+}
+.about-us-wrapper .video-wrapper .play-btn{
+    background-color:var(--white-color);
+    width:70px;
+    height:70px;
+    border-radius:100px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index:1;
+    cursor:pointer;
+}
+.section-title{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;  
+    color:var(--primary-color)  
+}
+.video-content-wrapper{
+    padding-left:32px
+}
+.about-us-wrapper .section-title{
+    margin-bottom:24px
+}
+.about-us-wrapper .para{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color:var(--dark-color);
+}
+.about-us-wrapper{
+    padding:60px 0
+}
+/* END :: ABOUT US */
+
+/* START :: CLOUD SOLUTIONS, AWS EXPERTISE, AI INNOVATION */
+.cloud-solutions-wrapper .cloud-card .icon{
+    width:120px;
+    height:120px;
+    border-radius:100%;
+    background-color:var(--primary-15-color);
+    margin-bottom:24px
+}
+.cloud-solutions-wrapper .cloud-card .icon img{
+    width:80px;
+    height:80px;
+}
+.cloud-solutions-wrapper .cloud-card .title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color:var(--primary-color)
+}
+.cloud-solutions-wrapper .cloud-card p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color:var(--black-color);
+    max-width:410px;
+}
+.cloud-solutions-wrapper .cloud-card:nth-child(2){
+    border-left:1px solid var(--border-color);
+    border-right:1px solid var(--border-color);
+}
+/* END :: CLOUD SOLUTIONS, AWS EXPERTISE, AI INNOVATION */
+
+/* START :: KEY OFFERING */
+.key-offering-wrapper {
+    padding-top:100px;
+    padding-bottom:76px;
+    background-color:var(--light-primary-color);
+    margin-top:60px;
+}
+.key-offering-wrapper .key-card{
+    border: 3px solid var(--primary-color);
+    gap:12px;
+    background-color:var(--white-color);
+    border-radius:12px;
+    height:100%;
+}
+.key-offering-wrapper .key-card img{
+    width:60px;
+    height:60px;
+    margin-bottom:12px;
+}
+.key-offering-wrapper .key-card .title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color:var(--primary-color);
+    margin:0 0 12px 0;
+}
+.key-offering-wrapper .key-card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color:var(--dark-color);
+    margin:0
+}
+.key-offering-wrapper .section-title{
+    margin-bottom:60px;
+}
+/* END :: KEY OFFERING */
+
+/* START :: AWS SERVICE STACK AND BENEFITS */
+.service-stack-wrapper{
+    padding-top:60px; 
+    padding-bottom:60px; 
+}
+.service-stack-wrapper .section-title{
+    padding-bottom:60px; 
+}
+.tabbing-area{
+    border-bottom:1px solid var(--border-color);
+    margin-bottom:60px;
+}
+.tab-ui{
+    border:0;
+    justify-content:center;
+    margin-bottom: 24px;
+}
+.tab-ui .nav-item .nav-link{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    border:0;
+    color:var(--dark-color);
+    padding:0 52px 0 52px;
+    position:relative;
+}
+.tab-ui .nav-item .nav-link.active{
+    color:var(--primary-color)
+}
+.tab-ui .nav-item .nav-link.active:before{
+    content:'';
+    border-radius: 100px;
+    width:100%;
+    height:3px;
+    background-color:var(--primary-color);
+    bottom:-24px;
+    position:absolute;
+    left:0;
+}
+.service-stack-wrapper .tab-img{
+    border-radius:12px
+}
+.service-stack-wrapper .title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom:12px;
+}
+.service-stack-wrapper p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* END :: AWS SERVICE STACK AND BENEFITS */
+
