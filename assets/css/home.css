@@ -1,7 +1,7 @@
 /* START :: HERO BANNER */
 .hero-banner-wrapper{
     background-color:var(--light-primary-color);
-}
+} 
 .hero-banner-wrapper .hero-title{
     font-weight: 700;
     font-size: 44px;
@@ -199,6 +199,359 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+    color:var(--dark-color)
+}
+.service-stack-wrapper .tab-text-content{
+    padding-left:50px
+}
+.service-stack-wrapper .aws-benefits-wrapper{
+    border-top:1px solid var(--border-color);
+    margin-top:36px;
+}
+.service-stack-wrapper .aws-benefits-wrapper .title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color:var(--primary-color)
+}
+.service-stack-wrapper .aws-benefits-wrapper img{
+    width:22px;
+    height:22px;
+}
+.service-stack-wrapper .aws-benefits-wrapper li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:var(--dark-color)
+}
+.service-stack-wrapper .aws-benefits-wrapper .right-side{
+    padding-left:60px;
+    border-left:1px solid var(--border-color);
 }
 /* END :: AWS SERVICE STACK AND BENEFITS */
+
+/* START :: SERVICES */
+.service-wrapper{
+    padding-top:60px;
+    padding-bottom:16px;
+}
+.service-wrapper .section-title{
+    margin-bottom:60px
+}
+.service-wrapper .ready-service-card{
+    background-color:var(--primary-color);
+    border-radius:12px;
+    height:100%;
+}
+.service-wrapper .ready-service-card .ready-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color:var(--white-color);
+    margin-bottom:24px
+}
+.service-wrapper .ready-service-card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color:var(--white-color);
+}
+.service-wrapper .ready-service-card .get-text{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.service-wrapper .ready-service-card .btn{
+    background-color:var(--white-color);
+    color:var(--primary-color);
+    width: fit-content;
+    margin-top:auto;
+}
+.service-wrapper .ready-service-card .btn img{
+    width:20px;
+    height:20px;
+}
+.service-wrapper .service-card{
+    background: linear-gradient(180deg, rgba(184, 208, 254, 0.5) 0%, rgba(255, 255, 255, 0.5) 61.5%);
+    border-radius:12px;
+    height:100%
+}
+.service-wrapper .service-card img{
+    width:70px;
+    height:70px;
+    margin-bottom:12px;
+}
+.service-wrapper .service-card .title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--primary-color);
+    margin: 0 0 12px 0;
+}
+.service-wrapper .service-card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--dark-color);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.service-wrapper .service-card ul li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--dark-color);
+    position:relative;
+}
+.service-wrapper .service-card ul li:before{
+    content:'';
+    position:absolute;
+    left: -30px;
+    top: 8px;
+    width:16px;
+    height:16px;
+    background-color:var(--primary-color);
+    border-radius:100px;
+}
+.service-wrapper .service-card ul li:after{
+    content:'';
+    position:absolute;
+    left: -26px;
+    top: 12px;
+    width:8px;
+    height:8px;
+    background-color:var(--white-color);
+    border-radius:100px;
+}
+.service-wrapper .service-card .read-more label{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color:var(--primary-color);
+    white-space:nowrap
+}
+.service-wrapper .service-card .read-more a img{
+    min-width:24px;
+    width:24px;
+    height:24px;
+    margin-bottom:0
+}
+.service-wrapper .service-card .read-more .divider{
+    background: linear-gradient(90deg, #1B479C 0%, #FFFFFF 100%);
+    height:1px;
+    width:100%;
+}
+/* END :: SERVICES */
+
+/* START :: WHAT OUR CLIENTS SAY */
+.what-our-clients-wrapper{
+    background-color:var(--light-primary-color);
+    padding-top:60px;
+    padding-bottom: 114px;
+}
+.what-our-clients-wrapper .section-title{
+    margin-bottom:60px
+}
+.what-our-clients-wrapper .client-say-card{
+    background-color:var(--white-color);
+    border-radius:12px;
+    padding:40px;
+}
+.what-our-clients-wrapper .client-say-card .rating{
+    height:24px;
+    margin-bottom:36px;
+}
+.what-our-clients-wrapper .client-say-card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--dark-color);
+    margin-bottom:36px
+}
+.what-our-clients-wrapper .client-say-card .client img{
+    width:80px;  
+    height:80px;  
+    border-radius:100px;
+}
+.what-our-clients-wrapper .client-say-card .client h6{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color:var(--dark-color);
+    margin-bottom:4px
+}
+.what-our-clients-wrapper .client-say-card .client p{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color:var(--primary-color);
+}
+.client-say-slider.slick-slider {
+    margin:0 -12px;
+}
+.client-say-slider .slick-slide {
+    margin-right:12px;
+    margin-left:12px;
+}
+.client-say-slider .slick-dots {
+    bottom: -52px;
+}
+.client-say-slider .slick-dots li{
+    width:auto;
+    height:auto
+}
+.client-say-slider .slick-dots li button{
+    width:12px;
+    height:12px;
+    padding:0;
+    background-color:var(--border-color);
+    border-radius:100px;
+}
+.client-say-slider .slick-dots li.slick-active button{
+    width:42px;
+    background-color:var(--primary-color);
+}
+.client-say-slider .slick-dots li button:before{
+    display:none
+}
+/* END :: WHAT OUR CLIENTS SAY */
+
+/* START :: FREQUENTLY ASKED QUESTIONS */
+.faq-wrapper{
+    padding-top:60px;
+    padding-bottom:60px;
+}
+.faq-wrapper:before{
+    content:'';
+    background-image:url('../images/home/faq-bg.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    height:80%;
+    left:0;
+    top:0;
+    width:100%;
+    z-index:-1
+}
+.accordion-button::after{
+    content:'';
+    background-image:url('../images/icons/circle-plus.svg');
+    min-width: 32px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index:1
+}
+.accordion-button:not(.collapsed)::after {
+    background-image:url('../images/icons/circle-minus.svg');
+    transform: none;
+    min-width: 32px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index:1
+}
+.faq-wrapper .section-title{
+    margin-bottom:28px
+}
+.faq-wrapper .accordion-item{
+    background: transparent;
+    border: 0;
+    border-radius:0;
+    border-bottom:1px solid var(--border-color);
+    padding:32px 0
+}
+.faq-wrapper .accordion-item .accordion-header .accordion-button{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--dark-color-2);
+    box-shadow:none;
+    background-color: transparent;
+    border-radius:0;
+    padding:0 40px 0 0;
+}
+.faq-wrapper .accordion-body{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--dark-color);
+    padding:24px 0 0 0
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow:none;
+}
+.faq-wrapper .accordion-item .accordion-header .accordion-button[aria-expanded="true"] {
+    color: var(--primary-color);
+}
+/* END :: FREQUENTLY ASKED QUESTIONS */
+
+/* START :: GET IN TOUCH */
+.get-touch-wrapper{
+    background-color:var(--primary-color);
+    padding:100px 0;
+}
+.get-touch-wrapper .get-form-card{
+    background-color:var(--white-color);
+    padding:40px;
+    border-radius:12px;
+}
+.get-touch-wrapper .btn{
+    border-radius:12px
+}
+.get-touch-wrapper .section-title{
+    color:var(--white-color)
+}
+.get-touch-wrapper p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:var(--white-color);
+    margin-bottom:40px;
+    max-width:600px;
+}
+.get-touch-wrapper .get-in-details .get-card .get-img{
+    background-color:var(--white-color);
+    height:80px;
+    width:80px;
+    min-width:80px;
+    border-radius:100px;
+}
+.get-touch-wrapper .get-in-details .get-card .get-img img{
+    width:45px;
+    height:45px;
+}
+.get-touch-wrapper .get-in-details .get-card h6{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color:var(--white-color);
+    margin-bottom:16px
+}
+.get-touch-wrapper .get-in-details{
+    display:flex;
+    align-items:center
+}
+.get-touch-wrapper .get-in-details .call{
+    padding-right:30px;
+    margin-right:30px;
+    border-right:1px solid var(--white-color)
+}
+.get-touch-wrapper .get-in-details .addredd{
+    border-top:1px solid var(--white-color);
+    width:100%;
+}
+/* END :: GET IN TOUCH */
 

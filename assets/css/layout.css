@@ -165,24 +165,24 @@
     font-weight: 700;
     line-height: 36.96px;
     color:var(--primary-color);
-    margin-bottom:24px
+    margin-bottom:20px
 }
 .footer-wrapper .footer-quick-links a{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 29.1px;
+    line-height: 16px;
     color:var(--dark-color);
 }
 .footer-wrapper .footer-quick-links a:hover{
     color:var(--primary-color);
 }
 .footer-wrapper .copy-right{
-    padding-top:28px;
-    margin-top:36px;
+    padding-top:24px;
+    margin-top:24px;
     border-top:1px solid var(--border-color);
 }
 .footer-wrapper .copy-right span{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 30px;
     color:var(--dark-color)

@@ -51,6 +51,15 @@
     .container{
         padding:0 20px;
     }
+    .get-touch-wrapper .get-in-details{
+        flex-direction:column;
+        align-items:self-start;
+    }
+    .get-touch-wrapper .get-in-details .call {
+        border-right: none;
+        border-bottom: 1px solid var(--white-color);
+        width:100%
+    }
 }
 @media(max-width:1100.98px){
     .menu-wrapper {
@@ -92,11 +101,47 @@
         display:none
     }
     .key-offering-wrapper {
-        padding-top:60px;
-        padding-bottom:30px;
+        padding-top:30px;
+        padding-bottom:16px;
+        margin-top: 40px;
     }
     .key-offering-wrapper .section-title{
         margin-bottom:36px
+    }
+    .service-stack-wrapper {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .service-wrapper {
+        padding-top: 0px;
+        padding-bottom: 8px;
+    }
+    .service-wrapper .section-title {
+        margin-bottom: 30px;
+    }
+    .what-our-clients-wrapper {
+        padding-top: 30px;
+        padding-bottom: 84px;
+    }
+    .client-say-slider .slick-dots {
+        bottom: -42px;
+    }
+    .what-our-clients-wrapper .section-title {
+        margin-bottom: 30px;
+    }
+    .faq-wrapper{
+        padding-top:6px;
+        padding-bottom: 30px;
+    }
+    .faq-wrapper .section-title {
+        margin-bottom: 30px;
+    }
+    .get-touch-wrapper p {
+        margin-bottom: 0px;
+        max-width:100%
+    }
+    .get-touch-wrapper {
+        padding: 30px 0;
     }
 }
 
@@ -123,12 +168,91 @@
         padding-left:0;
         padding-top:24px;
     }
+    .service-stack-wrapper .tab-img{
+        margin-bottom:24px;
+    }
+    .service-stack-wrapper .tab-text-content {
+        padding-left: 16px;
+    }
+    .tab-ui .nav-item .nav-link {
+        padding: 0 36px 0 36px;
+        white-space: nowrap;
+    }
+    .service-stack-wrapper .section-title {
+        padding-bottom: 30px;
+    }
+    .tabbing-area {
+        margin-bottom: 30px;
+    }
+    .service-stack-wrapper .aws-benefits-wrapper {
+        margin-top: 24px;
+    }
+    .what-our-clients-wrapper .client-say-card {
+        padding: 24px;
+    }
+    .what-our-clients-wrapper .client-say-card .rating {
+        margin-bottom: 24px;
+    }
+    .what-our-clients-wrapper .client-say-card p {
+        margin-bottom: 24px;
+    }
+    .what-our-clients-wrapper .client-say-card .client img {
+        width: 70px;
+        height: 70px;
+    }
+    .faq-wrapper .accordion-item {
+        padding: 20px 0;
+    }
+    .faq-wrapper .accordion-body {
+        padding: 16px 0 0 0;
+    }
+    .faq-wrapper .accordion-item .accordion-header .accordion-button {
+        font-size: 20px;
+    }
+    .accordion-button::after, .accordion-button:not(.collapsed)::after{
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+    }    
+    .get-touch-wrapper .get-in-details{
+        display:flex;
+        align-items:center;
+        flex-direction:row
+    }
+    .get-touch-wrapper .get-in-details .call{
+        border-bottom:none;
+        width:50%;
+        border-right:1px solid var(--white-color)
+    }
+    .get-touch-wrapper .get-form-card{
+        margin-top:24px
+    }
+    .get-touch-wrapper p {
+        margin-bottom: 24px;
+    }
+    .get-touch-wrapper .get-in-details .get-card .get-img {
+        height: 70px;
+        width: 70px;
+        min-width: 70px;
+    }
+    .get-touch-wrapper .get-form-card{
+        padding:24px
+    }
 }
 @media(max-width:768.98px){
     .footer-wrapper .copy-right{
         padding-top:24px;
         margin-top:12px;
     }
+    .tab-ui {
+        overflow-y: hidden;
+        overflow-x: auto;
+        padding-bottom:25px;
+        margin-bottom:0;
+        flex-wrap:nowrap;
+        justify-content: flex-start;
+    }
+
 }
 @media(max-width:767.98px){
     .cloud-solutions-wrapper .cloud-card:nth-child(2){
@@ -138,5 +262,24 @@
         margin:24px 0;
         border-top:1px solid var(--border-color);
         border-bottom:1px solid var(--border-color);
+    }
+    .get-touch-wrapper .get-in-details{
+        flex-direction:column;
+        align-items:self-start;
+    }
+    .get-touch-wrapper .get-in-details .call {
+        border-right: none;
+        border-bottom: 1px solid var(--white-color);
+        width:100%
+    }
+    .get-touch-wrapper p {
+        margin-bottom: 0;
+    }
+}
+@media(max-width:575.98px){
+    .service-stack-wrapper .aws-benefits-wrapper .right-side {
+        padding-left: 8px;
+        border-left: none;
+        border-top: 1px solid var(--border-color);
     }
 }
