@@ -133,3 +133,9 @@ img {
     line-height: 42px;
     color:var(--placeholder);
 }
+.w-fit{
+    width:fit-content
+}
+.section-wrapper{
+    padding:60px 0
+}
