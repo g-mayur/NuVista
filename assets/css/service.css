@@ -168,6 +168,9 @@
     margin-bottom:12px;
     margin-top: -70px;
 }
+.our-migration-wrapper .migration-oval-card .migration-img img{
+    height:40px
+}
 .our-migration-wrapper .migration-oval-card .title{
     font-weight: 700;
     font-size: 24px;
@@ -207,7 +210,7 @@
     background-color:var(--primary-15-color);
 }
 .why-choose-wrapper .choose-content .choose-card .choose-img img{
-    width:70px
+    width:60px
 }
 .why-choose-wrapper .choose-content .choose-card .title{
     font-weight: 700;
