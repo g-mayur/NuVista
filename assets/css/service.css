@@ -52,7 +52,7 @@
     width:100%;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 28px;
     color:var(--dark-color)
 }
 /* END :: QOUTES */
@@ -102,7 +102,7 @@
 }
 .service-timeline-wrapper p{
     font-size: 16px;
-    line-height: 30px;
+    line-height: 28px;
     color:var(--dark-color);
     padding:20px 24px;
     background-color:var(--light-primary-color);
@@ -136,24 +136,23 @@
 .our-migration-wrapper p{
     margin-bottom:60px;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 28px;
     color: var(--dark-color);
 }
 .our-migration-wrapper .migration-oval-card{
     background-color:var(--white-color);
     border-radius:12px;
     position:relative;
-    /* min-height:400px; */
 }
 .our-migration-wrapper .migration-card:before{
     content:'';
     background-image:url('../images/icons/round-arrow.svg');
-    position:absolute;
-    width: 25%;
+    position: absolute;
+    width: 100px;
     height: 100%;
     background-position: right;
     background-repeat: no-repeat;
-    right: -62px;
+    right: -52px;
     background-size: contain;
     top: 0;
 }
@@ -208,7 +207,7 @@
     background-color:var(--primary-15-color);
 }
 .why-choose-wrapper .choose-content .choose-card .choose-img img{
-    width:50px
+    width:70px
 }
 .why-choose-wrapper .choose-content .choose-card .title{
     font-weight: 700;
@@ -218,7 +217,7 @@
 }
 .why-choose-wrapper .choose-content .choose-card p{
     font-size: 16px;
-    line-height: 30px;
+    line-height: 28px;
     color: var(--dark-color);
 }
 .why-choose-wrapper .choose-left{
@@ -230,6 +229,6 @@
     position:absolute;
     right:0;
     bottom:100px;
-    right: -10px;
+    right: 0;
 }
 /* END :: WHY CHOOSE OUR AWS MIGRATION SERVICES? */

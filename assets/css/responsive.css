@@ -169,11 +169,11 @@
         margin-bottom: 30px;
     }
     .faq-wrapper{
-        padding-top:6px;
+        padding-top:30px;
         padding-bottom: 30px;
     }
     .faq-wrapper .section-title {
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
     .get-touch-wrapper p {
         margin-bottom: 0px;
@@ -197,6 +197,12 @@
     }
     .our-migration-wrapper .migration-card:before{
         display:none
+    }
+    .hero-banner-wrapper {
+        margin: 94px 0 0;
+    }
+    .why-choose-wrapper .section-title {
+        margin-bottom: 30px;
     }
 }
 
@@ -273,7 +279,11 @@
         padding: 16px 0 0 0;
     }
     .faq-wrapper .accordion-item .accordion-header .accordion-button {
-        font-size: 20px;
+        font-size: 18px;
+        line-height:30px
+    }
+    .accordion-button::after, .accordion-button:not(.collapsed)::after {
+        top: 5px;
     }
     .accordion-button::after, .accordion-button:not(.collapsed)::after{
         min-width: 24px;
@@ -343,6 +353,18 @@
         font-size: 24px;
         line-height: 36px;
     }
+    .section-title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .service-timeline-wrapper .comprehensive-img {
+        width: 100px;
+        height: 100px;
+    }
+    .service-timeline-wrapper .comprehensive-img img {
+        width: 70px;
+        height: 70px;
+    }
 }
 @media(max-width:768.98px){
     .footer-wrapper .copy-right{
@@ -395,7 +417,7 @@
         margin-left: unset;
     }
     .our-comrehensive-wrapper .section-title {
-        margin-bottom: 30px;
+        margin-bottom: 16px;
     }
     .change-order-1{
         order:1
@@ -427,6 +449,38 @@
     .change-order-10{
         order:10
     }
+    .change-order-11{
+        order:11
+    }
+    .change-order-12{
+        order:12
+    }
+    .change-order-13{
+        order:13
+    }
+    .change-order-14{
+        order:14
+    }
+    .why-choose-wrapper .choose-content .choose-card  {
+        flex-direction:column;
+        gap:16px !important;
+        justify-content:center;
+        text-align:center
+    }
+    .why-choose-wrapper .choose-content .choose-card .choose-img{
+        margin:0 auto
+    }
+    .why-choose-wrapper .choose-content .choose-card:nth-child(2) {
+        border-top: 1px solid var(--border-color);
+        border-bottom: 1px solid var(--border-color);
+        padding: 24px 0;
+    }
+    .why-choose-wrapper .choose-content {
+        gap: 24px;
+    }
+    .our-migration-wrapper .section-title {
+        margin-bottom: 16px;
+    }
 }
 @media(max-width:575.98px){
     .service-stack-wrapper .aws-benefits-wrapper .right-side {
@@ -442,10 +496,6 @@
         border-right: none;
         border-bottom: 1px solid var(--white-color);
         width:100%
-    }
-    .why-choose-wrapper .choose-content .choose-card  {
-        flex-direction:column;
-        gap:16px !important
     }
     .header-wrapper .site-logo img {
         height: 30px;
