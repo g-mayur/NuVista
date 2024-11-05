@@ -325,4 +325,8 @@
 .hero-banner-wrapper{
     margin: 142px 0 0;
 }
+.footer-wrapper a.active{
+    color:var(--secondary-color);
+    font-weight:600
+}
 /* END :: COMMON */

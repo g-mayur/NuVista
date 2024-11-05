@@ -44,13 +44,7 @@
         width:80px;
         height:80px;
     }
-    .why-choose-wrapper .choose-left img {
-        width: 70%;
-    }
-    .why-choose-wrapper .choose-right img {
-        width: 90%;
-        margin-left:auto
-    }
+    
 }
 @media only screen and (max-width:1400.98px){
     .container{
@@ -540,7 +534,7 @@
         text-align:center
     }
     .why-choose-wrapper .choose-content .choose-card .choose-img{
-        margin:0 auto
+        margin:0 auto;
     }
     .why-choose-wrapper .choose-content .choose-card:nth-child(2) {
         border-top: 1px solid var(--border-color);
@@ -549,9 +543,6 @@
     }
     .why-choose-wrapper .choose-content {
         gap: 24px;
-    }
-    .our-migration-wrapper .section-title {
-        margin-bottom: 16px;
     }
     .hero-banner-wrapper .hero-sub-title, .hero-title, .qoutes-wrapper .qoute p, .our-migration-wrapper .migration-oval-card p, .why-choose-wrapper .choose-content .choose-card p, .cloud-solutions-wrapper .cloud-card p {
         text-align:left !important;
@@ -562,6 +553,10 @@
     }
     .second-hero-banner .hero-content .btn {
         margin: unset;
+    }
+    .key-offering-wrapper .key-card img{
+        margin:0 auto;
+        margin-bottom: 12px;
     }
 }
 @media only screen and (max-width:575.98px){
