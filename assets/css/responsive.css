@@ -255,6 +255,7 @@
     }
     .hero-banner-wrapper {
         margin: 94px 0 0;
+        overflow: hidden;
     }
     .why-choose-wrapper .section-title {
         margin-bottom: 30px;
@@ -365,6 +366,13 @@
         height: 70px;
         width: 70px;
         min-width: 70px;
+    }
+    .nv__footerlogo-wrap {
+        border-bottom: 1px solid #dddddd;
+        padding: 0 12px 30px;
+    }
+    .footer-wrapper {
+        padding-top: 40px;
     }
     .get-touch-wrapper .get-form-card{
         padding:24px

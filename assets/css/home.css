@@ -357,7 +357,13 @@
     min-width:24px;
     width:24px;
     height:24px;
-    margin-bottom:0
+    margin-bottom:0;
+    transform: translateX(0);
+    transition: all 0.2s ease-in-out;
+}
+.service-wrapper .service-card .read-more a:hover img {
+    transition: all 0.2s ease-in-out;
+    transform: translateX(16px);
 }
 .service-wrapper .service-card .read-more .divider{
     background: linear-gradient(90deg, #1B479C 0%, #FFFFFF 100%);
