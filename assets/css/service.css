@@ -1,0 +1,235 @@
+/* START :: HERO BANNER */
+.second-hero-banner{
+    background-color:var(--white-color)
+}
+.second-hero-banner:before{
+    display:none;
+}
+.second-hero-banner .hero-title{
+    margin-bottom:24px
+}
+.second-hero-banner .hero-left{
+    position:absolute;
+    left:0;
+    top:0;
+}
+.second-hero-banner .hero-right{
+    position:absolute;
+    right:0;
+    bottom:20px;
+}
+/* END :: HERO BANNER */
+
+/* START :: QOUTES */
+.qoutes-wrapper .qoute{
+    background-color:var(--light-primary-color);
+    border-radius:12px;
+    padding:70px 140px
+}
+.qoutes-wrapper .qoute:before{
+    content:'';
+    background-image:url('../images/icons/qoute-up.svg');
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:40px;
+    left:140px;
+    background-size: cover;
+}
+.qoutes-wrapper .qoute:after{
+    content:'';
+    background-image:url('../images/icons/qoute-down.svg');
+    width:100px;
+    height:100px;
+    position:absolute;
+    bottom:40px;
+    right:140px;
+    background-size: cover;
+}
+.qoutes-wrapper .qoute p{
+    margin:0 auto;
+    max-width:1656px;
+    width:100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color:var(--dark-color)
+}
+/* END :: QOUTES */
+
+/* START :: OUR COMPREHENSIVE MIGRATION SERVICES */
+.our-comrehensive-wrapper .section-title{
+    margin-bottom:98px
+}
+.service-timeline-wrapper{
+    --bs-gutter-x: 80px;
+    --bs-gutter-y: 70px;
+}
+.service-timeline-wrapper:before{
+    content:'';
+    width:1px;
+    height:100%;
+    background-color:var(--primary-color);
+    position:absolute;
+    left:50%;
+    top: 35px;
+    transform: translateX(-50%);
+}
+.service-timeline-wrapper .comprehensive-img{
+    border:1px solid var(--primary-color);
+    border-radius:100%;
+    width:170px;
+    height:170px;
+    opacity:0.2;
+    margin-top:36px
+}
+.service-timeline-wrapper .comprehensive-img img{
+    width:100px;
+    height:100px;
+}
+.service-timeline-wrapper .left-content{
+    text-align:right;
+}
+.service-timeline-wrapper .right-img .comprehensive-img{
+    margin-left:auto
+}
+.service-timeline-wrapper .title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color:var(--primary-color);
+    margin-bottom:14px;
+}
+.service-timeline-wrapper p{
+    font-size: 16px;
+    line-height: 30px;
+    color:var(--dark-color);
+    padding:20px 24px;
+    background-color:var(--light-primary-color);
+    border-radius:12px;
+    margin:0
+}
+.service-timeline-wrapper .dot-point:before{
+    content:'';
+    width:20px;
+    height:20px;
+    background-color:var(--secondary-color);
+    border-radius:100px;
+    border:2px solid var(--primary-color);
+    position:absolute;
+    top: 8px;
+    left: -10px;
+}
+.service-timeline-wrapper .left-content.dot-point:before{
+    right:-10px;
+    left:unset;
+}
+/* END :: OUR COMPREHENSIVE MIGRATION SERVICES */
+
+/* START :: OUR MIGRATION PROCESS */
+.our-migration-wrapper{
+    background-color:var(--light-primary-color)
+}
+.our-migration-wrapper .section-title{
+    margin-bottom:30px;
+}
+.our-migration-wrapper p{
+    margin-bottom:60px;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--dark-color);
+}
+.our-migration-wrapper .migration-oval-card{
+    background-color:var(--white-color);
+    border-radius:12px;
+    position:relative;
+    /* min-height:400px; */
+}
+.our-migration-wrapper .migration-card:before{
+    content:'';
+    background-image:url('../images/icons/round-arrow.svg');
+    position:absolute;
+    width: 25%;
+    height: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    right: -62px;
+    background-size: contain;
+    top: 0;
+}
+.our-migration-wrapper .migration-card:last-child:before{
+    display:none
+}
+.our-migration-wrapper .migration-oval-card .migration-img{
+    border:15px solid var(--light-primary-color);
+    background-color:var(--primary-color);
+    width: 100px;
+    height: 100px;
+    border-radius:100px;
+    margin-bottom:12px;
+    margin-top: -70px;
+}
+.our-migration-wrapper .migration-oval-card .title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--primary-color);
+    margin-bottom:12px;
+}
+.our-migration-wrapper .migration-oval-card p{
+    margin-bottom: 0px;
+    /* max-width: 300px; */
+}
+.migration-wrapper{
+    --bs-gutter-x: 100px;
+}
+/* END :: OUR MIGRATION PROCESS */
+
+/* START :: WHY CHOOSE OUR AWS MIGRATION SERVICES? */
+.why-choose-wrapper .section-title{
+    margin-bottom:60px
+}
+.why-choose-wrapper .why-choose{
+    display:block;
+    max-width:550px;
+    width: 100%;
+}
+.why-choose-wrapper .choose-content{
+    gap:36px
+}
+.why-choose-wrapper .choose-content .choose-card {
+    align-items:flex-start
+}
+.why-choose-wrapper .choose-content .choose-card .choose-img{
+    width:100px;
+    min-width:100px;
+    height:100px;
+    border-radius:100px;
+    background-color:var(--primary-15-color);
+}
+.why-choose-wrapper .choose-content .choose-card .choose-img img{
+    width:50px
+}
+.why-choose-wrapper .choose-content .choose-card .title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--primary-color);
+}
+.why-choose-wrapper .choose-content .choose-card p{
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--dark-color);
+}
+.why-choose-wrapper .choose-left{
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+.why-choose-wrapper .choose-right{
+    position:absolute;
+    right:0;
+    bottom:100px;
+    right: -10px;
+}
+/* END :: WHY CHOOSE OUR AWS MIGRATION SERVICES? */
