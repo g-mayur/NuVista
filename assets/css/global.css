@@ -73,7 +73,8 @@ img {
     color:var(--white-color);
     background-color:var(--primary-color)
 }
-.btn.primary-btn:hover{
+.btn.primary-btn:hover,
+.btn:hover{
     background-color: var(--secondary-color);
 }
 .btn.primary-btn img{
