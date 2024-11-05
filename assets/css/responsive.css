@@ -30,8 +30,8 @@
         margin-bottom:16px;
     }
     .cloud-solutions-wrapper .cloud-card .icon img{
-        width:70px;
-        height:70px;
+        width:60px;
+        height:60px;
     }
     .second-hero-banner .hero-left img{
         width:70%
@@ -259,9 +259,6 @@
     .why-choose-wrapper .section-title {
         margin-bottom: 30px;
     }
-}
-
-@media(max-width:1024.98px){
     .get-touch-wrapper .get-in-details{
         flex-direction:column;
         align-items:self-start;
@@ -270,6 +267,9 @@
         border-right: none;
         border-bottom: 1px solid var(--white-color);
         width:100%
+    }
+    .footer-wrapper{
+        padding-top:30px
     }
 }
 @media(max-width:991.98px){
@@ -417,8 +417,8 @@
         height: 100px;
     }
     .service-timeline-wrapper .comprehensive-img img {
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
     }
     .map-wrapper .map{
         margin-top:30px;

@@ -30,8 +30,9 @@
     gap:12px;
     font-size: 12px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 22px;
     color:var(--white-color);
+    align-items: flex-start !important;
 }
 .contact-location a:hover img,
 .follow-us a:hover {
@@ -128,7 +129,7 @@
 }
 .dropdown-toggle.show::after {
     transform: rotate(180deg);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 .dropdown-toggle:hover::after{
     filter: brightness(0) saturate(100%) invert(80%) sepia(70%) saturate(3257%) hue-rotate(348deg) brightness(115%) contrast(94%);
@@ -141,7 +142,7 @@
     border-bottom:1px solid var(--border-color);
     background-color:var(--white-color);
     padding: 12px 0;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 .dropdown .dropdown-menu li:last-child .dropdown-item{
     border-bottom: 0;
