@@ -57,7 +57,7 @@
 .section-title{
     font-size: 32px;
     font-weight: 700;
-    line-height: 42px;  
+    line-height: 44px;  
     color:var(--primary-color)  
 }
 .video-content-wrapper{
@@ -67,8 +67,8 @@
     margin-bottom:24px
 }
 .about-us-wrapper .para{
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 28px;
     font-weight: 400;
     color:var(--dark-color);
 }
@@ -92,13 +92,13 @@
 .cloud-solutions-wrapper .cloud-card .title{
     font-weight: 700;
     font-size: 24px;
-    line-height: 30px;
+    line-height: 36px;
     color:var(--primary-color)
 }
 .cloud-solutions-wrapper .cloud-card p{
     font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 28px;
     color:var(--black-color);
     max-width:410px;
 }
@@ -134,7 +134,7 @@
 .key-offering-wrapper .key-card .title{
     font-size: 24px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 36px;
     color:var(--primary-color);
     margin:0 0 12px 0;
 }
@@ -196,7 +196,7 @@
 .service-stack-wrapper .title{
     font-size: 24px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 36px;
     margin-bottom:12px;
 }
 .service-stack-wrapper p{
@@ -213,9 +213,9 @@
     margin-top:36px;
 }
 .service-stack-wrapper .aws-benefits-wrapper .title{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 30px;
     color:var(--primary-color)
 }
 .service-stack-wrapper .aws-benefits-wrapper img{
@@ -250,7 +250,7 @@
 .service-wrapper .ready-service-card .ready-title{
     font-size: 30px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 42px;
     color:var(--white-color);
     margin-bottom:24px
 }
@@ -288,7 +288,7 @@
 .service-wrapper .service-card .title{
     font-size: 24px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 36px;
     color: var(--primary-color);
     margin: 0 0 12px 0;
 }
@@ -330,9 +330,9 @@
     border-radius:100px;
 }
 .service-wrapper .service-card .read-more label{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 28px;
     color:var(--primary-color);
     white-space:nowrap
 }
@@ -372,24 +372,25 @@
     font-weight: 400;
     line-height: 28px;
     color: var(--dark-color);
-    margin-bottom:36px
+    margin-bottom:36px;
+    word-break: break-word;
 }
 .what-our-clients-wrapper .client-say-card .client img{
-    width:80px;  
-    height:80px;  
+    width:60px;  
+    height:60px;  
     border-radius:100px;
 }
 .what-our-clients-wrapper .client-say-card .client h6{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 30px;
     color:var(--dark-color);
-    margin-bottom:4px
+    margin-bottom:2px
 }
 .what-our-clients-wrapper .client-say-card .client p{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 28px;
     color:var(--primary-color);
 }
 .client-say-slider.slick-slider {
@@ -482,7 +483,7 @@
 .faq-wrapper .accordion-item .accordion-header .accordion-button{
     font-size: 24px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 36px;
     color: var(--dark-color-2);
     box-shadow:none;
     background-color: transparent;
@@ -521,13 +522,16 @@
 .get-touch-wrapper .section-title{
     color:var(--white-color)
 }
-.get-touch-wrapper p{
+.get-touch-wrapper p, .get-touch-wrapper a{
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 28px;
     color:var(--white-color);
     margin-bottom:40px;
     max-width:600px;
+}
+.get-touch-wrapper a:hover{
+    color:var(--secondary-color)
 }
 .get-touch-wrapper .get-in-details .get-card .get-img{
     background-color:var(--white-color);
@@ -541,11 +545,11 @@
     height:45px;
 }
 .get-touch-wrapper .get-in-details .get-card h6{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 30px;
     color:var(--white-color);
-    margin-bottom:16px
+    margin-bottom:8px
 }
 .get-touch-wrapper .get-in-details{
     display:flex;
