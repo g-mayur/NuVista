@@ -379,7 +379,7 @@
     padding-bottom: 114px;
 }
 .what-our-clients-wrapper .section-title{
-    margin-bottom:60px
+    margin-bottom:40px
 }
 .what-our-clients-wrapper .client-say-card{
     background-color:var(--white-color);
@@ -497,7 +497,7 @@
     border-radius:100px
 }
 .faq-wrapper .section-title{
-    margin-bottom:28px
+    margin-bottom:16px
 }
 .faq-wrapper .accordion-item{
     background: transparent;
