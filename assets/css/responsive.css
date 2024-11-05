@@ -365,6 +365,13 @@
         width: 70px;
         height: 70px;
     }
+    .map-wrapper .map{
+        margin-top:30px;
+        height:450px
+    }
+    .our-migration-wrapper .migration-oval-card{
+        border-radius:12px
+    }
 }
 @media(max-width:768.98px){
     .footer-wrapper .copy-right{
@@ -411,11 +418,13 @@
         --bs-gutter-y: 10px;
     }
     .service-timeline-wrapper .comprehensive-img {
-        margin-top: 14px;
+        margin:0 auto;
+        margin-top: 16px;
     }
-    .service-timeline-wrapper .right-img .comprehensive-img {
-        margin-left: unset;
+    .service-timeline-wrapper .title{
+        text-align:center
     }
+
     .our-comrehensive-wrapper .section-title {
         margin-bottom: 16px;
     }
@@ -480,6 +489,16 @@
     }
     .our-migration-wrapper .section-title {
         margin-bottom: 16px;
+    }
+    .hero-banner-wrapper .hero-sub-title, .hero-title, .qoutes-wrapper .qoute p, .our-migration-wrapper .migration-oval-card p, .why-choose-wrapper .choose-content .choose-card p, .cloud-solutions-wrapper .cloud-card p {
+        text-align:left !important;
+        display:block
+    }
+    .cloud-solutions-wrapper .cloud-card p{
+        max-width:100%   
+    }
+    .second-hero-banner .hero-content .btn {
+        margin: unset;
     }
 }
 @media(max-width:575.98px){
