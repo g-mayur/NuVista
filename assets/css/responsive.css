@@ -1,9 +1,9 @@
-@media(min-width:1681px){
+@media only screen and (min-width:1681px){
     .container{
         max-width:1660px
     }
 }
-@media(max-width:1650.98px){
+@media only screen and (max-width:1650.98px){
     .hero-banner-wrapper:before{
         background-size: contain;
     }
@@ -52,14 +52,14 @@
         margin-left:auto
     }
 }
-@media(max-width:1400.98px){
+@media only screen and (max-width:1400.98px){
     .container{
         max-width:100%;
         width:100%;
         padding:0 40px;
     }
 }
-@media(max-width:1280.98px){
+@media only screen and (max-width:1280.98px){
     .top-header{ 
         display:none;
     }
@@ -90,12 +90,12 @@
         max-width: 90%;
     }
 }
-@media (max-width:1250px){
+@media only screen and (max-width:1250px){
     .header-wrapper ul{
         gap: 36px;
     }
 }
-@media(max-width:1024.98px){
+@media only screen and (max-width:1024.98px){
     .dropdown-toggle::after {
         position: absolute;
         top: 20px;
@@ -272,7 +272,7 @@
         padding-top:30px
     }
 }
-@media(max-width:991.98px){
+@media only screen and (max-width:991.98px){
     .hero-banner-wrapper .hero-content{
         padding:60px 0
     }
@@ -428,7 +428,7 @@
         border-radius:12px
     }
 }
-@media(max-width:768.98px){
+@media only screen and (max-width:768.98px){
     .footer-wrapper .copy-right{
         padding-top:24px;
         margin-top:12px;
@@ -453,7 +453,7 @@
         bottom:20px;
     }
 }
-@media(max-width:767.98px){
+@media only screen and (max-width:767.98px){
     .cloud-solutions-wrapper .cloud-card:nth-child(2){
         border-left:none;
         border-right:none;
@@ -556,7 +556,7 @@
         margin: unset;
     }
 }
-@media(max-width:575.98px){
+@media only screen and (max-width:575.98px){
     .service-stack-wrapper .aws-benefits-wrapper .right-side {
         padding-left: 8px;
         border-left: none;
@@ -586,7 +586,7 @@
         margin: 84px 0 0;
     }
 }
-@media(max-width:412.98px){    
+@media only screen and (max-width:412.98px){    
     .second-hero-banner .hero-content .btn{
         margin:0 auto;
         width:100% !important;
