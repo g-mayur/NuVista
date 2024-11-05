@@ -96,7 +96,7 @@
 .service-timeline-wrapper .title{
     font-size: 24px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 36px;
     color:var(--primary-color);
     margin-bottom:14px;
 }
@@ -172,7 +172,7 @@
 .our-migration-wrapper .migration-oval-card .title{
     font-weight: 700;
     font-size: 24px;
-    line-height: 30px;
+    line-height: 36px;
     color: var(--primary-color);
     margin-bottom:12px;
 }
@@ -213,7 +213,7 @@
 .why-choose-wrapper .choose-content .choose-card .title{
     font-weight: 700;
     font-size: 24px;
-    line-height: 30px;
+    line-height: 36px;
     color: var(--primary-color);
 }
 .why-choose-wrapper .choose-content .choose-card p{

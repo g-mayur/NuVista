@@ -72,10 +72,6 @@ img {
 }
 .btn.primary-btn:hover{
     background-color: var(--secondary-color);
-    color: var(--dark-color);
-}
-.btn.primary-btn:hover img{
-    filter: brightness(0) saturate(100%) invert(10%) sepia(5%) saturate(25%) hue-rotate(8deg) brightness(101%) contrast(91%);
 }
 .btn.primary-btn img{
     width:20px;
