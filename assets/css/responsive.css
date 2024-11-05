@@ -259,9 +259,6 @@
     .why-choose-wrapper .section-title {
         margin-bottom: 30px;
     }
-}
-
-@media(max-width:1024.98px){
     .get-touch-wrapper .get-in-details{
         flex-direction:column;
         align-items:self-start;
@@ -270,6 +267,9 @@
         border-right: none;
         border-bottom: 1px solid var(--white-color);
         width:100%
+    }
+    .footer-wrapper{
+        padding-top:30px
     }
 }
 @media(max-width:991.98px){

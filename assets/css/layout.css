@@ -30,8 +30,9 @@
     gap:12px;
     font-size: 12px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 22px;
     color:var(--white-color);
+    align-items: flex-start !important;
 }
 .contact-location a:hover img,
 .follow-us a:hover {
