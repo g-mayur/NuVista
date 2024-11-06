@@ -557,7 +557,7 @@
     max-width:600px;
 }
 .get-touch-wrapper a:hover{
-    color:var(--secondary-color)
+    color:var(--secondary-color) !important;
 }
 .get-touch-wrapper .get-in-details .get-card .get-img{
     background-color:var(--white-color);
