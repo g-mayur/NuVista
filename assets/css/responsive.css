@@ -503,6 +503,12 @@
         font-size: 28px;
         line-height: 40px;
     }
+    .case-study .case-study-card .case-study-img{
+        height:300px;
+    }
+    .case-study {
+        padding-bottom: 0;
+    }
 }
 @media only screen and (max-width:768.98px){
     .footer-wrapper .copy-right{
@@ -715,6 +721,14 @@
     }
     .hero-banner-wrapper {
         margin: 84px 0 0;
+    }
+    .pagination-wrapper .pagination-btn-wrapper{
+        gap:12px
+    }
+    .pagination-wrapper .pagination-btn-wrapper button {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
     }
 }
 @media only screen and (max-width:412.98px){    

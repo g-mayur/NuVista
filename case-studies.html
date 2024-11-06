@@ -11,7 +11,6 @@
     <meta name="author" content="NuVista Technologies, Inc.">
     <meta name="copyright" content="&copy; 2024 NuVista Technologies, Inc.">
     <link rel="icon" href="assets/images/favi.png" type="image/x-icon">
-
     <!-- START :: HELPING CSS LINKS -->
     <link rel="stylesheet" href="assets/fonts/fonts.css">
     <link rel="stylesheet" href="assets/css/slick.css">
@@ -21,14 +20,16 @@
     <link rel="stylesheet" href="assets/css/layout.css">
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="assets/css/service.css">
+    <link rel="stylesheet" href="assets/css/about-us.css">
+    <link rel="stylesheet" href="assets/css/case-study.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- END :: HELPING CSS LINKS -->
 </head>
 <body>
     <!-- START :: HEADER SEC -->
-    <div class="nv__header-wrap slide-down nv__animated-header">
-        <!-- START :: TOP HEADER -->
-       <div class="top-header bg-primary">
+     <div class="nv__header-wrap slide-down nv__animated-header">
+         <!-- START :: TOP HEADER -->
+        <div class="top-header bg-primary">
             <div class="container">
                 <div class="d-flex justify-content-between">
                     <div class="contact-location">
@@ -89,6 +90,9 @@
         <!-- START :: HEADER -->
         <header class="header-wrapper">
             <div class="container d-flex align-items-center justify-content-between">
+                <button class="navbar-toggler" type="button" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="line"></span><span class="line"></span><span class="line"></span>
+                </button>
                 <a href="index.html" class="site-logo">
                     <img src="assets/images/site-logo.png" alt="NuVista"/>
                 </a>
@@ -100,9 +104,9 @@
                         <a href="about-us.html">About Us</a>
                     </li>
                     <li>
-                        <a href="case-studies.html">Case Studies</a>
+                        <a href="case-studies.html" class="active">Case Studies</a>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown nv__desktop-dropdown">
                         <a href="#" class="dropdown-toggle position-relative" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
                         <ul class="dropdown-menu">
                             
@@ -113,8 +117,18 @@
                             <li><a class="dropdown-item" href="cloud-operations-service.html">Cloud Operations</a></li>
                         </ul>
                     </li>
+                    <li class="nv__mobile-dropdown">
+                        <a  class="dropdown-toggle" data-bs-toggle="collapse" href="#collapsemenu" role="button" aria-expanded="false" aria-controls="collapseExample">Services</a>
+                        <ul class="collapse" id="collapsemenu">
+                            <li><a class="dropdown-item" href="cloud-migration-service.html">Cloud Migration</a></li>
+                            <li><a class="dropdown-item" href="ai-powered-solutions-service.html">AI - Powered Soluations</a></li>
+                            <li><a class="dropdown-item" href="application-modernization-service.html">Application Modernization</a></li>
+                            <li><a class="dropdown-item" href="data-driven-insights-service.html">Data - Driven Insights</a></li>
+                            <li><a class="dropdown-item" href="cloud-operations-service.html">Cloud Operations</a></li>
+                        </ul>
+                    </li>
                     <li>
-                        <a href="contact-us.html" class="active">Contact</a>
+                        <a href="contact-us.html">Contact</a>
                     </li>
                     
                 </ul>
@@ -123,33 +137,30 @@
                         Get A Quote
                         <img src="assets/images/icons/get.svg" alt="Get A Quote"/>
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="line"></span><span class="line"></span><span class="line"></span>
-                    </button>
                 </div>
 
             </div>
         </header>
         <!-- END :: HEADER -->
-    </div>
-   <!-- END :: HEADER SEC -->
+     </div>
+    <!-- END :: HEADER SEC -->
 
     <!-- START :: HERO BANNER -->
     <section class="hero-banner-wrapper position-relative second-hero-banner">
         <div class="hero-left">
-            <img src="assets/images/service/hero-left.svg" class="d-block" alt="heroleft"/>
+            <img src="assets/images/case-study/hero-left.svg" class="d-block" alt="heroleft"/>
         </div>
         <div class="hero-right">
-            <img src="assets/images/service/hero-right.svg" class="d-block" alt="heroright"/>
+            <img src="assets/images/case-study/hero-right.svg" class="d-block" alt="heroright"/>
         </div>
         <div class="container position-relative">
             <div class="row align-items-center hero-content">
                 <div class="col-lg-7 col-md-12 col-sm-12 content">
-                    <label class="hero-sub-title">Your Partner in AI, Cloud, and Data Solutions</label>
-                    <h1 class="hero-title mb-0">Connect with Us to Transform Your Business</h1>
+                    <label class="hero-sub-title">Driving Real-World Impact</label>
+                    <h1 class="hero-title mb-0">Transforming Businesses with AI, Cloud, and Data Insights</h1>
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12 content-img">
-                    <img src="assets/images/contact/hero-img.svg" class="w-100" alt="hero-banner"/>
+                    <img src="assets/images/case-study/hero-img.svg" class="w-100" alt="hero-banner"/>
                 </div>
             </div>
         </div>
@@ -160,17 +171,143 @@
     <section class="qoutes-wrapper">
         <div class="container">
             <div class="qoute position-relative">
-                <p class="text-center position-relative">Whether you’re looking to optimize operations, gain insights from data, or unlock new possibilities with AI, our team is here to help. Reach out to explore how we can empower your business with innovative technology and expertise.</p>
+                <p class="text-center position-relative">Explore how our innovative AI, cloud, and data-driven solutions are helping businesses achieve remarkable results. From enhanced customer experiences to operational efficiency, our case studies highlight real-world impact. Discover the transformative power of technology in action.</p>
             </div>
         </div>
     </section>
     <!-- END :: QOUTES -->
-
-    <!-- START :: CONTACT MAP -->
-    <section class="map-wrapper">
-        <iframe class="map w-100 mb-0 p-0 d-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.6875450655984!2d-84.30362702482711!3d33.96073562255755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50a45fb6ebd59%3A0xbf7dfadfa978f096!2s2090%20Dunwoody%20Club%20Dr%20106%205358%2C%20Atlanta%2C%20GA%2030350%2C%20USA!5e1!3m2!1sen!2sin!4v1730791478303!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    <!-- START :: CASE STUDY LIST -->
+    <section class="case-study section-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <a href="javascript:void(0)" class="case-study-card position-relative d-block mb-4">
+                        <img src="assets/images/case-study/case-study-1.png" class="case-study-img" alt="case-study"/>
+                        <span class="case-study-content">
+                            <span class="technology-stack d-flex align-items-center gap-2 mt-auto">
+                                <span class="technology">AWS Migration Hub</span>
+                                <span class="technology">DMS</span>
+                            </span>
+                            <h3 class="title mb-0">Empowering Legacy Systems through Secure Cloud Migration</h3>
+                            <span class="read-more d-flex align-items-center justify-content-between gap-2 w-100">
+                                <span class="m-0 d-block">Read More</span>
+                                <span class="divider d-block"></span>
+                                <img src="assets/images/icons/right-arrow-2.svg" class="d-block" alt="right-arrow">
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <a href="javascript:void(0)" class="case-study-card position-relative d-block mb-4">
+                        <img src="assets/images/case-study/case-study-2.png" class="case-study-img" alt="case-study"/>
+                        <span class="case-study-content">
+                            <span class="technology-stack d-flex align-items-center gap-2 mt-auto">
+                                <span class="technology">AWS Migration Hub</span>
+                                <span class="technology">DMS</span>
+                            </span>
+                            <h3 class="title mb-0">Empowering Legacy Systems through Secure Cloud Migration</h3>
+                            <span class="read-more d-flex align-items-center justify-content-between gap-2 w-100">
+                                <span class="m-0 d-block">Read More</span>
+                                <span class="divider d-block"></span>
+                                <img src="assets/images/icons/right-arrow-2.svg" class="d-block" alt="right-arrow">
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <a href="javascript:void(0)" class="case-study-card position-relative d-block mb-4">
+                        <img src="assets/images/case-study/case-study-3.png" class="case-study-img" alt="case-study"/>
+                        <span class="case-study-content">
+                            <span class="technology-stack d-flex align-items-center gap-2 mt-auto">
+                                <span class="technology">AWS Migration Hub</span>
+                                <span class="technology">DMS</span>
+                            </span>
+                            <h3 class="title mb-0">Empowering Legacy Systems through Secure Cloud Migration</h3>
+                            <span class="read-more d-flex align-items-center justify-content-between gap-2 w-100">
+                                <span class="m-0 d-block">Read More</span>
+                                <span class="divider d-block"></span>
+                                <img src="assets/images/icons/right-arrow-2.svg" class="d-block" alt="right-arrow">
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <a href="javascript:void(0)" class="case-study-card position-relative d-block mb-4">
+                        <img src="assets/images/case-study/case-study-4.png" class="case-study-img" alt="case-study"/>
+                        <span class="case-study-content">
+                            <span class="technology-stack d-flex align-items-center gap-2 mt-auto">
+                                <span class="technology">AWS Migration Hub</span>
+                                <span class="technology">DMS</span>
+                            </span>
+                            <h3 class="title mb-0">Empowering Legacy Systems through Secure Cloud Migration</h3>
+                            <span class="read-more d-flex align-items-center justify-content-between gap-2 w-100">
+                                <span class="m-0 d-block">Read More</span>
+                                <span class="divider d-block"></span>
+                                <img src="assets/images/icons/right-arrow-2.svg" class="d-block" alt="right-arrow">
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <a href="javascript:void(0)" class="case-study-card position-relative d-block mb-4">
+                        <img src="assets/images/case-study/case-study-5.png" class="case-study-img" alt="case-study"/>
+                        <span class="case-study-content">
+                            <span class="technology-stack d-flex align-items-center gap-2 mt-auto">
+                                <span class="technology">AWS Migration Hub</span>
+                                <span class="technology">DMS</span>
+                            </span>
+                            <h3 class="title mb-0">Empowering Legacy Systems through Secure Cloud Migration</h3>
+                            <span class="read-more d-flex align-items-center justify-content-between gap-2 w-100">
+                                <span class="m-0 d-block">Read More</span>
+                                <span class="divider d-block"></span>
+                                <img src="assets/images/icons/right-arrow-2.svg" class="d-block" alt="right-arrow">
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <a href="javascript:void(0)" class="case-study-card position-relative d-block mb-4">
+                        <img src="assets/images/case-study/case-study-6.png" class="case-study-img" alt="case-study"/>
+                        <span class="case-study-content">
+                            <span class="technology-stack d-flex align-items-center gap-2 mt-auto">
+                                <span class="technology">AWS Migration Hub</span>
+                                <span class="technology">DMS</span>
+                            </span>
+                            <h3 class="title mb-0">Empowering Legacy Systems through Secure Cloud Migration</h3>
+                            <span class="read-more d-flex align-items-center justify-content-between gap-2 w-100">
+                                <span class="m-0 d-block">Read More</span>
+                                <span class="divider d-block"></span>
+                                <img src="assets/images/icons/right-arrow-2.svg" class="d-block" alt="right-arrow">
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
-    <!-- END :: CONTACT MAP -->
+    <!-- END :: CASE STUDY LIST -->
+
+    <!-- START :: PAGINATION -->
+    <section class="pagination-wrapper section-wrapper pt-0">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center pagination-btn-wrapper">
+                <button class="d-flex align-items-center justify-content-center">
+                    <img src="assets/images/icons/pagination-left-arrow.svg" alt="pagination-left-arrow"/>
+                </button>
+                <button class="d-flex align-items-center justify-content-center active">1</button>
+                <button class="d-flex align-items-center justify-content-center">2</button>
+                <button class="d-flex align-items-center justify-content-center">3</button>
+                <button class="d-flex align-items-center justify-content-center">4</button>
+                <button class="d-flex align-items-center justify-content-center">5</button>
+                <button class="d-flex align-items-center justify-content-center">
+                    <img src="assets/images/icons/pagination-right-arrow.svg" alt="pagination-right-arrow"/>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- END :: PAGINATION -->
+   
 
     <!-- START :: GET IN TOUCH -->
     <section class="get-touch-wrapper">
@@ -237,64 +374,8 @@
     </section>
     <!-- END :: GET IN TOUCH -->
 
-    <!-- START :: HOW CAN WE HELP? -->
-    <section class="why-choose-wrapper section-wrapper position-relative">
-        <div class="choose-left">
-            <img src="assets/images/service/choose-left.svg" class="d-block" alt="chooseleft"/>
-        </div>
-        <div class="choose-right">
-            <img src="assets/images/service/choose-right.svg" class="d-block" alt="heroright"/>
-        </div>
-        <div class="container position-relative">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                    <h2 class="section-title">
-                        How Can We Help?
-                    </h2>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <img src="assets/images/contact/we-help.svg" class="why-choose" alt="why choose"/>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="d-flex flex-column choose-content">
-                        <div class="choose-card d-flex gap-4">
-                            <div class="choose-img d-flex align-items-center justify-content-center">
-                                <img src="assets/images/icons/why-choose/choose-1.svg" alt="why-choose"/>
-                            </div>
-                            <div>
-                                <h6 class="title">General Inquiries</h6>
-                                <p class="mb-0">For questions about our services, solutions, and approach, connect with our team to learn more about how we can assist in your business goals.</p>
-                            </div>
-                        </div>
-                        <div class="choose-card d-flex gap-4">
-                            <div class="choose-img d-flex align-items-center justify-content-center">
-                                <img src="assets/images/icons/why-choose/choose-2.svg" alt="why-choose"/>
-                            </div>
-                            <div>
-                                <h6 class="title">Support & Assistance</h6>
-                                <p class="mb-0">Have a specific question or need help with an existing service? We’re here to ensure your business keeps running smoothly with expert support.</p>
-                            </div>
-                        </div>
-                        <div class="choose-card d-flex gap-4">
-                            <div class="choose-img d-flex align-items-center justify-content-center">
-                                <img src="assets/images/icons/why-choose/choose-3.svg" alt="why-choose"/>
-                            </div>
-                            <div>
-                                <h6 class="title">Collaboration & Partnerships</h6>
-                                <p class="mb-0">We’re always open to meaningful collaborations. If you’re interested in partnering or discussing joint projects, let’s start the conversation.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END :: HOW CAN WE HELP? -->
-
      <!-- START :: FOOTER -->
-     <footer class="footer-wrapper light-bg-background">
+     <footer class="footer-wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 mb-4 nv__footerlogo-wrap">
@@ -340,10 +421,10 @@
                                 <a href="about-us.html">About Us</a>
                             </li>
                             <li>
-                                <a href="case-studies.html">Case Studies</a>
+                                <a href="case-studies.html" class="active">Case Studies</a>
                             </li>
                             <li>
-                                <a href="contact-us.html"  class="active">Contact</a>
+                                <a href="contact-us.html">Contact</a>
                             </li>
                         </ul>
                     </div>
