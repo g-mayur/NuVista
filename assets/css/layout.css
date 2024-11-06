@@ -329,4 +329,16 @@
     color:var(--secondary-color);
     font-weight:600
 }
+.nv__desktop-dropdown .dropdown-menu:after{
+    content: '';
+    background-image:url('../images/servicedropdownbg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 160px;
+    height: 129px;
+    opacity: .1;
+}
 /* END :: COMMON */

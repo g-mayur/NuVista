@@ -52,6 +52,9 @@
         width:100%;
         padding:0 40px;
     }
+    .vision {
+        padding-left: 30px;
+    }
 }
 @media only screen and (max-width:1280.98px){
     .top-header{ 
@@ -83,10 +86,36 @@
         line-height: 60px;
         max-width: 90%;
     }
+    .vision {
+        padding-left: 10px;
+    }
+    .mission-vision-wrapper p {
+        max-width: 100%;
+    }
+    .mission-vision-wrapper .mission:before, .mission-vision-wrapper:after{
+        width:200px;
+        height:200px;
+    }
+    .mission-vision-wrapper .col-sm-12 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 }
 @media only screen and (max-width:1250px){
     .header-wrapper ul{
         gap: 36px;
+    }
+}
+@media only screen and (max-width:1199px){
+    .service-stack-wrapper .tab-text-content {
+        padding-left: 30px;
+    }
+    .service-stack-wrapper .aws-benefits-wrapper .right-side {
+        padding-left: 20px;
+        padding-right: 0;
+    }
+    .get-touch-wrapper .get-form-card {
+        padding: 24px;
     }
 }
 @media only screen and (max-width:1024.98px){
@@ -266,6 +295,21 @@
     .footer-wrapper{
         padding-top:30px
     }
+    .hero-banner-wrapper:before {
+        right: -120px;
+    }
+    .mission-vision-wrapper .mission:before, .mission-vision-wrapper:after{
+        width:150px;
+        height:150px;
+    }
+    .mission-vision-wrapper .col-sm-12 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .mission-vision-wrapper{
+        margin-top:20px;
+        margin-bottom:40px;
+    }
 }
 @media only screen and (max-width:991.98px){
     .hero-banner-wrapper .hero-content{
@@ -429,6 +473,36 @@
     .our-migration-wrapper .migration-oval-card{
         border-radius:12px
     }
+    .nv__footerlogo-wrap {
+        border-bottom: 1px solid var(--border-color);
+        padding: 0 12px 30px;
+    }
+    .hero-banner-wrapper .hero-title {
+        max-width: 100%;
+    }
+    .cloud-solutions-wrapper .cloud-card .icon img {
+        width: 55px;
+        height: 55px;
+    }
+    .cloud-solutions-wrapper .cloud-card .icon {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 16px;
+    }
+    .about-main-img{
+        margin:0 auto 24px;
+        display:block
+    }
+    .emprowering-wrapper p {
+        margin-bottom: 24px;
+    }
+    .emprowering-wrapper .section-title {
+        margin-bottom: 40px;
+    }
+    .mission-vision-wrapper .title {
+        font-size: 28px;
+        line-height: 40px;
+    }
 }
 @media only screen and (max-width:768.98px){
     .footer-wrapper .copy-right{
@@ -481,7 +555,6 @@
     .service-timeline-wrapper .title{
         text-align:center
     }
-
     .our-comrehensive-wrapper .section-title {
         margin-bottom: 16px;
     }
@@ -558,6 +631,61 @@
         margin:0 auto;
         margin-bottom: 12px;
     }
+    .about-us-wrapper .video-wrapper .play-btn {
+        width: 50px;
+        height: 50px;
+    }
+    .about-us-wrapper .video-wrapper .play-btn img{
+        max-width: 20px;
+    }
+    .service-wrapper .service-card img {
+        margin: 0 auto 12px;
+    }
+    .get-touch-wrapper .get-in-details .get-card .get-img img {
+        width: 30px;
+        height: 30px;
+    }
+    .get-touch-wrapper .get-in-details .get-card .get-img {
+        height: 50px;
+        width: 50px;
+        min-width: 50px;
+    }
+    .form-wrapper input {
+        height: 50px;
+    }
+    .footer-wrapper .footer-logo .site-logo {
+        height: 50px;
+    }
+    .footer-wrapper .footer-logo ul li a {
+        width: 35px;
+        height: 35px;
+    }
+    .footer-wrapper .footer-logo ul li a img {
+        width: 20px;
+    }  
+    .footer-wrapper .copy-right {
+        padding-top: 12px;
+    } 
+    .get-touch-wrapper .get-in-details .get-card {
+        align-items: unset !important;
+    }
+    .about-us-wrapper {
+        padding: 60px 0 36px;
+    }
+    .mission-vision-wrapper:before {
+        width: 100%;
+        height: 50%;
+    }
+    .mission-vision-wrapper:after {
+        right: 16px;
+    }
+    .mission-vision-wrapper .col-sm-12 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .vision {
+        padding-left: 0;
+    }
 }
 @media only screen and (max-width:575.98px){
     .service-stack-wrapper .aws-benefits-wrapper .right-side {
@@ -598,5 +726,10 @@
     .second-hero-banner .hero-content .btn img{
         margin:unset
     }
-
+    .header-wrapper .site-logo {
+        padding-left: 30px;
+    }
+    .navbar-toggler .line {
+        width: 20px;
+    }
 }

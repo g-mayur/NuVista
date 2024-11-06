@@ -11,7 +11,6 @@
     <meta name="author" content="NuVista Technologies, Inc.">
     <meta name="copyright" content="&copy; 2024 NuVista Technologies, Inc.">
     <link rel="icon" href="assets/images/favi.png" type="image/x-icon">
-
     <!-- START :: HELPING CSS LINKS -->
     <link rel="stylesheet" href="assets/fonts/fonts.css">
     <link rel="stylesheet" href="assets/css/slick.css">
@@ -21,14 +20,15 @@
     <link rel="stylesheet" href="assets/css/layout.css">
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="assets/css/service.css">
+    <link rel="stylesheet" href="assets/css/about-us.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- END :: HELPING CSS LINKS -->
 </head>
 <body>
     <!-- START :: HEADER SEC -->
-    <div class="nv__header-wrap slide-down nv__animated-header">
-        <!-- START :: TOP HEADER -->
-       <div class="top-header bg-primary">
+     <div class="nv__header-wrap slide-down nv__animated-header">
+         <!-- START :: TOP HEADER -->
+        <div class="top-header bg-primary">
             <div class="container">
                 <div class="d-flex justify-content-between">
                     <div class="contact-location">
@@ -89,6 +89,9 @@
         <!-- START :: HEADER -->
         <header class="header-wrapper">
             <div class="container d-flex align-items-center justify-content-between">
+                <button class="navbar-toggler" type="button" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="line"></span><span class="line"></span><span class="line"></span>
+                </button>
                 <a href="index.html" class="site-logo">
                     <img src="assets/images/site-logo.png" alt="NuVista"/>
                 </a>
@@ -97,18 +100,18 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="about-us.html">About Us</a>
+                        <a href="about-us.html" class="active">About Us</a>
                     </li>
                     <li>
                         <a href="javascript:void(0)">Case Studies</a>
                     </li>
                     <li class="dropdown nv__desktop-dropdown">
-                        <a href="#" class="dropdown-toggle position-relative active" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <a href="#" class="dropdown-toggle position-relative" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
                         <ul class="dropdown-menu">
                             
-                            <li><a class="dropdown-item " href="cloud-migration-service.html">Cloud Migration</a></li>
-                            <li><a class="dropdown-item " href="ai-powered-solutions">AI - Powered Soluations</a></li>
-                            <li><a class="dropdown-item active" href="application-modernization-service.html">Application Modernization</a></li>
+                            <li><a class="dropdown-item" href="cloud-migration-service.html">Cloud Migration</a></li>
+                            <li><a class="dropdown-item" href="ai-powered-solutions-service.html">AI - Powered Soluations</a></li>
+                            <li><a class="dropdown-item" href="application-modernization-service.html">Application Modernization</a></li>
                             <li><a class="dropdown-item" href="data-driven-insights-service.html">Data - Driven Insights</a></li>
                             <li><a class="dropdown-item" href="cloud-operations-service.html">Cloud Operations</a></li>
                         </ul>
@@ -116,9 +119,9 @@
                     <li class="nv__mobile-dropdown">
                         <a  class="dropdown-toggle" data-bs-toggle="collapse" href="#collapsemenu" role="button" aria-expanded="false" aria-controls="collapseExample">Services</a>
                         <ul class="collapse" id="collapsemenu">
-                            <li><a class="dropdown-item " href="cloud-migration-service.html">Cloud Migration</a></li>
-                            <li><a class="dropdown-item " href="ai-powered-solutions">AI - Powered Soluations</a></li>
-                            <li><a class="dropdown-item active" href="application-modernization-service.html">Application Modernization</a></li>
+                            <li><a class="dropdown-item" href="cloud-migration-service.html">Cloud Migration</a></li>
+                            <li><a class="dropdown-item" href="ai-powered-solutions-service.html">AI - Powered Soluations</a></li>
+                            <li><a class="dropdown-item" href="application-modernization-service.html">Application Modernization</a></li>
                             <li><a class="dropdown-item" href="data-driven-insights-service.html">Data - Driven Insights</a></li>
                             <li><a class="dropdown-item" href="cloud-operations-service.html">Cloud Operations</a></li>
                         </ul>
@@ -133,16 +136,13 @@
                         Get A Quote
                         <img src="assets/images/icons/get.svg" alt="Get A Quote"/>
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="line"></span><span class="line"></span><span class="line"></span>
-                    </button>
                 </div>
 
             </div>
         </header>
         <!-- END :: HEADER -->
-    </div>
-   <!-- END :: HEADER SEC -->
+     </div>
+    <!-- END :: HEADER SEC -->
 
     <!-- START :: HERO BANNER -->
     <section class="hero-banner-wrapper position-relative second-hero-banner">
@@ -155,8 +155,8 @@
         <div class="container position-relative">
             <div class="row align-items-center hero-content">
                 <div class="col-lg-7 col-md-12 col-sm-12 content">
-                    <label class="hero-sub-title">Modern Applications for an Agile, Scalable Future</label>
-                    <h1 class="hero-title ">Revolutionize Your Business with Cloud-Native, Modern Applications</h1>
+                    <label class="hero-sub-title">Innovative Solutions for Today's SMBs</label>
+                    <h1 class="hero-title ">Empowering SMBs for a Digital Future</h1>
                     <a href="contact-us.html" class="btn primary-btn w-fit">
                         Contact Us
                         <img src="assets/images/icons/get.svg" alt="Get A Quote"/>
@@ -174,204 +174,257 @@
     <section class="qoutes-wrapper">
         <div class="container">
             <div class="qoute position-relative">
-                <p class="text-center position-relative">In today’s competitive landscape, modern applications provide the flexibility, scalability, and
-                    efficiency needed to adapt quickly to changing market demands. Our team empowers
-                    businesses to move from legacy systems to cloud-native architectures, using AWS’s powerful
-                    tools and best practices to deliver applications that are fast, resilient, and optimized for today’s
-                    digital economy</p>
+                <p class="text-center position-relative">We are dedicated to empowering small and medium-sized businesses (SMBs) by providing innovative solutions that harness the power of cloud technology, modern applications, and artificial intelligence. Our mission is to help you thrive in today’s fast-paced business environment.</p>
             </div>
         </div>
     </section>
+    
     <!-- END :: QOUTES -->
     
-    <!-- START :: OUR COMPREHENSIVE MIGRATION SERVICES -->
-    <section class="our-comrehensive-wrapper section-wrapper">
+    <!-- START :: Empowering SMBs for Success in the Digital Age -->
+    <section class="emprowering-wrapper section-wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                    <h2 class="section-title">Key Modernization Solutions We Offer</h2>
+                    <h2 class="section-title">Empowering SMBs for Success in the Digital Age</h2>
                 </div>
-            </div>
-            <div class="row service-timeline-wrapper position-relative">
-                <div class="col-lg-6 col-md-6 col-sm-12 change-order-2 left-content dot-point position-relative">
-                    <h5 class="title">Cloud-Native Application Development</h5>
-                    <p>Build applications that are designed for the cloud from the ground up. With AWS Amplify and AWS Lambda, we create serverless, scalable applications that minimize infrastructure management and allow you to focus on innovation. This approach reduces costs and accelerates time-to-market. </p>
+                <div class="col-lg-5 col-md12 col-sm-12">
+                    <img src="assets/images/about-us/about-us.svg" class="about-main-img" alt="about"/>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 change-order-1">
-                    <div class="comprehensive-img d-flex align-items-center justify-content-center">
-                        <img src="assets/images/icons/comprehensive/comprehensive-1.svg" alt="Applications"/>
+                <div class="col-lg-7 col-md-12 col-sm-12">
+                    <p>We empower SMBs with tailored solutions and advanced cloud technologies. As an AWS APN Partner, we provide comprehensive services like cloud migration and data insights, ensuring efficiency and security for businesses to thrive in the digital era.</p>
+                    <div class="row g-4">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="about-card">
+                                <div class="d-flex align-items-center p-3 gap-3">
+                                    <div class="about-img d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icons/about/about-1.svg" alt="about"/>
+                                    </div>
+                                    <span>Focused on SMBs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="about-card">
+                                <div class="d-flex align-items-center p-3 gap-3">
+                                    <div class="about-img d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icons/about/about-2.svg" alt="about"/>
+                                    </div>
+                                    <span>AWS Partnership</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="about-card">
+                                <div class="d-flex align-items-center p-3 gap-3">
+                                    <div class="about-img d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icons/about/about-3.svg" alt="about"/>
+                                    </div>
+                                    <span>Comprehensive Services</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="about-card">
+                                <div class="d-flex align-items-center p-3 gap-3">
+                                    <div class="about-img d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icons/about/about-4.svg" alt="about"/>
+                                    </div>
+                                    <span>Efficiency and Security</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="about-card">
+                                <div class="d-flex align-items-center p-3 gap-3">
+                                    <div class="about-img d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icons/about/about-5.svg" alt="about"/>
+                                    </div>
+                                    <span>Data-Driven Decisions</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="about-card">
+                                <div class="d-flex align-items-center p-3 gap-3">
+                                    <div class="about-img d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icons/about/about-6.svg" alt="about"/>
+                                    </div>
+                                    <span>AWS Partnership</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 change-order-3 right-img">
-                    <div class="comprehensive-img d-flex align-items-center justify-content-center">
-                        <img src="assets/images/icons/comprehensive/comprehensive-2.svg" alt="VMware Environments"/>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 change-order-4 dot-point position-relative">
-                    <h5 class="title">Containerization and Microservices</h5>
-                    <p>Unlock the potential of microservices architecture using Amazon ECS and EKS. By containerizing your applications, we enable rapid deployment, high availability, and easy scalability. This architecture allows for independent updates, improved fault tolerance, and seamless integration with other cloud services. </p>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 change-order-6 left-content dot-point position-relative">
-                    <h5 class="title">API-Driven Integration</h5>
-                    <p>Streamline your application’s connectivity with API-driven development using Amazon API
-                        Gateway. We help create flexible, RESTful APIs that make your applications more adaptable,
-                        allowing easy integration with internal systems, third-party applications, and partner
-                        ecosystems.</p>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 change-order-5">
-                    <div class="comprehensive-img d-flex align-items-center justify-content-center">
-                        <img src="assets/images/icons/comprehensive/comprehensive-3.svg" alt="Databases"/>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 change-order-7 right-img">
-                    <div class="comprehensive-img d-flex align-items-center justify-content-center">
-                        <img src="assets/images/icons/comprehensive/comprehensive-4.svg" alt="Data Warehouses"/>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 change-order-8 dot-point position-relative">
-                    <h5 class="title">Application Refactoring and Re-Architecting</h5>
-                    <p>Reimagine your legacy applications for better performance, scalability, and security. Our
-                        refactoring services use AWS Migration Hub and AWS Well-Architected Framework to assess,
-                        re-engineer, and optimize existing applications, making them more responsive and aligned with
-                        modern standards.</p>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 change-order-10 left-content dot-point position-relative">
-                    <h5 class="title">DevOps and CI/CD Automation</h5>
-                    <p>Accelerate development and deployment cycles with a DevOps approach using AWS
-                        CodePipeline, CodeBuild, and CodeDeploy. Our team automates CI/CD workflows, ensuring
-                        quick releases, fewer errors, and streamlined updates, so your applications evolve efficiently
-                        and continuously.</p>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 change-order-9">
-                    <div class="comprehensive-img d-flex align-items-center justify-content-center">
-                        <img src="assets/images/icons/comprehensive/comprehensive-5.svg" alt="Storage & Backup"/>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 change-order-11 right-img">
-                    <div class="comprehensive-img d-flex align-items-center justify-content-center">
-                        <img src="assets/images/icons/comprehensive/comprehensive-4.svg" alt="Data Warehouses"/>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 change-order-12 dot-point position-relative">
-                    <h5 class="title">Database Modernization</h5>
-                    <p>Improve performance and reduce costs by transitioning to managed databases on AWS. Using
-                        Amazon RDS, DynamoDB, and Aurora, we enable fast, reliable, and scalable data storage
-                        solutions for modern applications. Database modernization provides high availability and
-                        automatic backup, reducing the need for manual management.
-                        </p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- END :: OUR COMPREHENSIVE MIGRATION SERVICES -->
-
-    <!-- START :: OUR MIGRATION PROCESS -->
-    <section class="our-migration-wrapper section-wrapper overflow-hidden">
+    <!-- END :: Empowering SMBs for Success in the Digital Age -->
+    
+    <!-- START :: OUR MISSION AND OUR VISSION -->
+    <section class="mission-vision-wrapper light-bg-background position-relative">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-md-10 col-sm-12 text-center">
-                    <h2 class="section-title">Our Modernization Process</h2>
-                    <p class="d-none">
-                        Our migration process includes thorough assessment and planning to create a tailored strategy, seamless execution using AWS tools to ensure business continuity, and post-migration validation and optimization to enhance performance, security, and cost-efficiency.
-                    </p>
-                </div>
-            </div>
-            <div class="row migration-wrapper justify-content-center">
-                <div class="col-lg-4 col-md-6 col-sm-12 migration-card position-relative">
-                    <div class="migration-oval-card h-100">
-                        <div class="p-4 d-flex flex-column align-items-center text-center">
-                            <div class="migration-img d-flex align-items-center justify-content-center">
-                                <img src="assets/images/icons/migration/migration-1.svg" alt="migration"/>
-                            </div>
-                            <h5 class="title">Assessment & Strategy</h5>
-                            <p>We begin by assessing your current application landscape, identifying areas for improvement,
-                                and crafting a tailored modernization strategy. This phase ensures our approach aligns with your
-                                business goals, budget, and technical requirements.
-                                </p>
-                        </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 position-relative">
+                    <div class="mission">
+                        <h6 class="title">Our Mission</h6>
+                        <p class="mb-0">Our mission is to empower SMBs with innovative technology solutions that enhance growth and efficiency through seamless cloud migration, application modernization, and data insights.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 migration-card position-relative">
-                    <div class="migration-oval-card h-100">
-                        <div class="p-4 d-flex flex-column align-items-center text-center">
-                            <div class="migration-img d-flex align-items-center justify-content-center">
-                                <img src="assets/images/icons/migration/migration-2.svg" alt="migration"/>
-                            </div>
-                            <h5 class="title">Design & Development</h5>
-                            <p>Using AWS cloud-native tools, we design applications that are resilient, secure, and scalable.
-                                Our team develops with a cloud-first mindset, incorporating microservices, serverless
-                                computing, and containerization to optimize performance and reduce costs.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 migration-card position-relative">
-                    <div class="migration-oval-card h-100">
-                        <div class="p-4 d-flex flex-column align-items-center text-center">
-                            <div class="migration-img d-flex align-items-center justify-content-center">
-                                <img src="assets/images/icons/migration/migration-3.svg" alt="migration"/>
-                            </div>
-                            <h5 class="title">Deployment & Continuous Optimization</h5>
-                            <p>Once deployed, our team monitors and refines your applications using AWS monitoring and
-                                analytics tools. We apply continuous optimization to keep your applications performing at their
-                                best, adapting to your business needs as they evolve.</p>
-                        </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 position-relative">
+                    <div class="vision">
+                        <h6 class="title">Our Vision</h6>
+                        <p class="mb-0">Our vision is to empower every SMB to harness technology for unlocking opportunities and achieving their full potential, becoming the trusted partner for innovation and success in a digital world.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- END :: OUR MIGRATION PROCESS -->
-
-    <!-- START :: WHY CHOOSE OUR AWS MIGRATION SERVICES? -->
-    <section class="why-choose-wrapper section-wrapper position-relative">
-        <div class="choose-left">
-            <img src="assets/images/service/choose-left.svg" class="d-block" alt="chooseleft"/>
-        </div>
-        <div class="choose-right">
-            <img src="assets/images/service/choose-right.svg" class="d-block" alt="heroright"/>
-        </div>
-        <div class="container position-relative">
+    <!-- END :: OUR MISSION AND OUR VISSION -->
+    
+    <!-- START :: SERVICES -->
+    <section class="service-wrapper">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                    <h2 class="section-title">
-                        Why Choose Our Modern Application Services?
-                    </h2>
+                    <h2 class="section-title">Services</h2>
                 </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <img src="assets/images/service/why-choose.svg" class="why-choose" alt="why choose"/>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="d-flex flex-column choose-content">
-                        <div class="choose-card d-flex gap-4">
-                            <div class="choose-img d-flex align-items-center justify-content-center">
-                                <img src="assets/images/icons/why-choose/choose-1.svg" alt="why-choose"/>
-                            </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="ready-service-card">
+                        <div class="p-4 d-flex flex-column h-100">
                             <div>
-                                <h6 class="title">Future-Proof Architecture</h6>
-                                <p class="mb-0">Built using cloud-native, serverless, and microservices
-                                    architectures, our applications are designed to adapt and grow with your business.</p>
+                                <h3 class="ready-title">Ready to Transform Your Business?</h3>
+                                <p class="mb-4">Our team of experts is here to guide you through every step of your journey. Whether you’re looking to migrate to the cloud, integrate AI, modernize your applications, harness data insights, or optimize cloud operations, we’re ready to help. Reach out to discover how we can empower your business for success.</p>
+                                <p class="get-text mb-4">Get in touch with us today!</p>
+                            </div>
+                            <a href="contact-us.html" class="btn">Contact Us  <img src="assets/images/icons/blueGet.svg" alt="Contact Us"/></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="service-card">
+                        <div class="p-4 d-flex flex-column h-100">
+                            <div class="d-flex flex-column">
+                                <img src="assets/images/icons/services/service-1.svg" alt="Cloud Migration"/>
+                                <h3 class="title">Cloud Migration</h3>
+                                <p class="mb-4">Seamless Cloud Migration for Applications, Databases, and More Migrating to the cloud can feel complex, but with our expertise and AWS’s powerful tools...</p>
+                                <ul class="list-style-none mb-4 d-flex flex-column gap-2">
+                                    <li>Application</li>
+                                    <li>VMware Environments</li>
+                                    <li>Databases</li>
+                                    <li>Data Warehouses</li>
+                                    <li>Storage & Backup</li>
+                                </ul>
+                            </div>
+                            <div class="read-more  mt-auto">
+                                <a href="cloud-migration-service.html" class="d-flex align-items-center justify-content-between gap-2">
+                                    <label class="m-0">Read More</label>
+                                    <div class="divider"></div>
+                                    <img src="assets/images/icons/right-arrow.svg" class="d-block" alt="right-arrow"/>
+                                </a>
                             </div>
                         </div>
-                        <div class="choose-card d-flex gap-4">
-                            <div class="choose-img d-flex align-items-center justify-content-center">
-                                <img src="assets/images/icons/why-choose/choose-2.svg" alt="why-choose"/>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="service-card">
+                        <div class="p-4 d-flex flex-column h-100">
+                            <div class="d-flex flex-column">
+                                <img src="assets/images/icons/services/service-2.svg" alt="AI - Powered Soluations"/>
+                                <h3 class="title">AI - Powered Soluations</h3>
+                                <p class="mb-4">Unlock the potential of your applications with AI-powered solutions that enhance efficiency, drive innovation, and deliver smarter decision-making.</p>
+                                <ul class="list-style-none mb-4 d-flex flex-column gap-2">
+                                    <li>Intelligent Customer Support</li>
+                                    <li>Personalized Recommendations</li>
+                                    <li>Image & Video Recognition</li>
+                                    <li>Natural Language Processing</li>
+                                    <li>Predictive Analytics & Forecasting</li>
+                                    <li>Document Processing Automation</li>
+                                    <li>Voice & Speech Recognition</li>
+                                </ul>
                             </div>
-                            <div>
-                                <h6 class="title">Increased Agility</h6>
-                                <p class="mb-0">From rapid deployment cycles to flexible scaling, our
-                                    modernized applications allow your business to respond quickly to changes in demand.</p>
+                            <div class="read-more mt-auto">
+                                <a href="ai-powered-solutions-service.html" class="d-flex align-items-center justify-content-between gap-2">
+                                    <label class="m-0">Read More</label>
+                                    <div class="divider"></div>
+                                    <img src="assets/images/icons/right-arrow.svg" class="d-block" alt="right-arrow"/>
+                                </a>
                             </div>
                         </div>
-                        <div class="choose-card d-flex gap-4">
-                            <div class="choose-img d-flex align-items-center justify-content-center">
-                                <img src="assets/images/icons/why-choose/choose-3.svg" alt="why-choose"/>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="service-card">
+                        <div class="p-4 d-flex flex-column h-100">
+                            <div class="d-flex flex-column">
+                                <img src="assets/images/icons/services/service-3.svg" alt="Application Modernization"/>
+                                <h3 class="title">Application Modernization</h3>
+                                <p class="mb-4">Transform your legacy applications into modern, cloud-native solutions using AWS and AI technologies, enabling enhanced performance, scalability, and agility for your business.</p>
+                                <ul class="list-style-none mb-4 d-flex flex-column gap-2">
+                                    <li>Cloud-Native Application Development</li>
+                                    <li>Containerization & Microservices</li>
+                                    <li>API-Driven Integration</li>
+                                    <li>Application Refactoring and Re-Architecting</li>
+                                    <li>DevOps and CI/CD Automation</li>
+                                    <li>Database Modernization</li>
+                                </ul>
                             </div>
-                            <div>
-                                <h6 class="title">Cost Efficiency</h6>
-                                <p class="mb-0">Leveraging AWS’s pay-as-you-go model, we reduce
-                                    infrastructure costs, maximize performance, and minimize maintenance needs.</p>
+                            <div class="read-more mt-auto">
+                                <a href="application-modernization-service.html" class="d-flex align-items-center justify-content-between gap-2">
+                                    <label class="m-0">Read More</label>
+                                    <div class="divider"></div>
+                                    <img src="assets/images/icons/right-arrow.svg" class="d-block" alt="right-arrow"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="service-card">
+                        <div class="p-4 d-flex flex-column h-100">
+                            <div class="d-flex flex-column">
+                                <img src="assets/images/icons/services/service-4.svg" alt="Data - Driven Insights"/>
+                                <h3 class="title">Data - Driven Insights</h3>
+                                <p class="mb-4">Leverage advanced analytics to convert your data into actionable insights, empowering informed decision-making and driving strategic growth for your business.</p>
+                                <ul class="list-style-none mb-4 d-flex flex-column gap-2">
+                                    <li>Data Integration Across Applications</li>
+                                    <li>Scalable Data Lakes for Centralized Storage</li>
+                                    <li>Data Products with Real Business Impact</li>
+                                    <li>Advanced Analytics and Real-Time Insights</li>
+                                    <li>Data Governance and Compliance</li>
+                                </ul>
+                            </div>
+                            <div class="read-more mt-auto">
+                                <a href="data-driven-insights-service.html" class="d-flex align-items-center justify-content-between gap-2">
+                                    <label class="m-0">Read More</label>
+                                    <div class="divider"></div>
+                                    <img src="assets/images/icons/right-arrow.svg" class="d-block" alt="right-arrow"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="service-card">
+                        <div class="p-4 d-flex flex-column h-100">
+                            <div class="d-flex flex-column">
+                                <img src="assets/images/icons/services/service-5.svg" alt="Cloud Operations"/>
+                                <h3 class="title">Cloud Operations</h3>
+                                <p class="mb-4">Optimize your cloud environment for performance, security, and cost efficiency, empowering your business to thrive.</p>
+                                <ul class="list-style-none mb-4 d-flex flex-column gap-2">
+                                    <li>Proactive Monitoring and Performance Optimization</li>
+                                    <li>Cost Management and Optimization</li>
+                                    <li>Security and Compliance Management</li>
+                                    <li>Automated Backup and Disaster Recovery</li>
+                                    <li>Governance and Policy Management</li>
+                                </ul>
+                            </div>
+                            <div class="read-more mt-auto">
+                                <a href="cloud-operations-service.html" class="d-flex align-items-center justify-content-between gap-2">
+                                    <label class="m-0">Read More</label>
+                                    <div class="divider"></div>
+                                    <img src="assets/images/icons/right-arrow.svg" class="d-block" alt="right-arrow"/>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -379,7 +432,7 @@
             </div>
         </div>
     </section>
-    <!-- END :: WHY CHOOSE OUR AWS MIGRATION SERVICES? -->
+    <!-- END :: SERVICES -->
 
     <!-- START :: WHAT OUR CLIENTS SAY -->
     <section class="what-our-clients-wrapper">
@@ -450,7 +503,7 @@
     <!-- END :: WHAT OUR CLIENTS SAY -->
 
     <!-- START :: FREQUENTLY ASKED QUESTIONS -->
-    <section class="faq-wrapper position-relative">
+    <section class="faq-wrapper position-relative section-wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center">
@@ -537,8 +590,73 @@
     </section>
     <!-- END :: FREQUENTLY ASKED QUESTIONS -->
 
+    <!-- START :: GET IN TOUCH -->
+    <section class="get-touch-wrapper">
+        <div class="container">
+            <div class="row align-items-center gx-5">
+                <div class="col-lg-7 col-md-12 col-sm-12">
+                    <h2 class="section-title mb-4">Get In Touch</h2>
+                    <p>We offers a direct line to our team for inquiries related to AWS, cloud services, and AI solutions. Whether you need technical support, consultation, or have general questions, we’re here to help you leverage the power of cloud technology and artificial intelligence. Reach out to us today!</p>
+                    <div class="get-in-details">
+                        <div class="get-card d-flex align-items-center gap-3 py-4 call">
+                            <div class="get-img d-flex align-items-center justify-content-center">
+                                <img src="assets/images/icons/get/call.svg" alt="call us"/>
+                            </div>
+                            <div>
+                                <h6>Call Us</h6>
+                                <a href="tel:+404-919-3712">+(404) 919-3712</a>
+                            </div>
+                        </div>
+                        <div class="get-card d-flex align-items-center gap-3 py-4 email">
+                            <div class="get-img d-flex align-items-center justify-content-center">
+                                <img src="assets/images/icons/get/email.svg" alt="email"/>
+                            </div>
+                            <div>
+                                <h6>Email</h6>
+                                <a href="mailto:info@nuvistatech.com">info@nuvistatech.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="get-in-details">
+                        <div class="get-card d-flex align-items-center gap-3 py-4 addredd">
+                            <div class="get-img d-flex align-items-center justify-content-center">
+                                <img src="assets/images/icons/get/address.svg" alt="address"/>
+                            </div>
+                            <div>
+                                <h6>Address</h6>
+                                <p class="mb-0">2090 Dunwoody Club Dr, Ste 106 #5358 Atlanta, Georgia, 30350, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <div class="get-form-card d-flex flex-column gap-4">
+                        <div class="form-wrapper">
+                            <label class="form-label">Your Name</label>
+                            <input type="text" class="form-control" placeholder="Enter full name here">
+                        </div>
+                        <div class="form-wrapper">
+                            <label class="form-label">Email Address</label>
+                            <input type="text" class="form-control" placeholder="Enter email address">
+                        </div>
+                        <div class="form-wrapper">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" placeholder="Type your message here...."></textarea>
+                        </div>
+                        <div class="form-wrapper">
+                            <button class="btn primary-btn w-100 justify-content-center">
+                                Send <img src="assets/images/icons/send.svg" alt="send"/>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END :: GET IN TOUCH -->
+
      <!-- START :: FOOTER -->
-     <footer class="footer-wrapper light-bg-background">
+     <footer class="footer-wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 mb-4 nv__footerlogo-wrap">
@@ -581,7 +699,7 @@
                                 <a href="index.html">Home</a>
                             </li>
                             <li>
-                                <a href="about-us.html">About Us</a>
+                                <a href="about-us.html" class="active">About Us</a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)">Case Studies</a>
@@ -603,7 +721,7 @@
                                 <a href="ai-powered-solutions-service.html">AI - Powered Soluations</a>
                             </li>
                             <li>
-                                <a href="application-modernization-service.html"  class="active">Application Modernization</a>
+                                <a href="application-modernization-service.html">Application Modernization</a>
                             </li>
                             <li>
                                 <a href="data-driven-insights-service.html">Data - Driven Insights</a>
