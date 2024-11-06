@@ -40,10 +40,10 @@
     transition: all 0.2s ease-in-out;
 }
 .nv__mobile-dropdown{
-    display: none;
+    display: none !important;
 }
 .nv__desktop-dropdown{
-    display: block;
+    display: block !important;
 }
 /* END :: TOP HEADER */
 
@@ -205,35 +205,63 @@
     animation: slideOutUp .7s;
     will-change: transform
 }
-.nv__animated-header{
+.nv__animated-header {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    will-change: transform;
+    will-change: transform, visibility;
 }
+
+@-webkit-keyframes slide-down {
+    0% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
+
 @keyframes slide-down {
     0% {
-        -webkit-transform: translate3d(0,-100%,0);
-        transform: translate3d(0,-100%,0);
-        visibility: visible
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        visibility: visible;
     }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
 
-    to {
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0)
+@-webkit-keyframes slideOutUp {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        visibility: hidden;
     }
 }
 
 @keyframes slideOutUp {
     0% {
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0)
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        visibility: visible;
     }
-
-    to {
-        -webkit-transform: translate3d(0,-100%,0);
-        transform: translate3d(0,-100%,0)
+    100% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        visibility: hidden;
     }
 }
 

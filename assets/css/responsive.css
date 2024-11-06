@@ -146,10 +146,10 @@
         border-bottom: 0;
     }
     .nv__mobile-dropdown{
-        display: block;
+        display: block !important;
     }
     .nv__desktop-dropdown{
-        display: none;
+        display: none !important;
     }
     .header-wrapper .site-logo {
         padding-left: 50px;
