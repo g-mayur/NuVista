@@ -51,22 +51,24 @@ $(document).ready(function () {
         //   }
         //   t = i;
         // });
-        var t = 0;
-        $(window).scroll(function () {
-          var i = $(this).scrollTop();
-          if (i > t) {
+        
+        // var t = 0;
+        // $(window).scroll(function () {
+        //   var i = $(this).scrollTop();
+        //   if (i > t) {
           
-            if (!$(".nv__header-wrap").hasClass("slideOutUp")) {
-              $(".nv__header-wrap").addClass("slideOutUp").removeClass("slide-down");
-            }
-          } else {
-            if (!$(".nv__header-wrap").hasClass("slide-down")) {
-              $(".nv__header-wrap").removeClass("slideOutUp").addClass("slide-down");
-            }
-          }
-          t = i;
-        });
+        //     if (!$(".nv__header-wrap").hasClass("slideOutUp")) {
+        //       $(".nv__header-wrap").addClass("slideOutUp").removeClass("slide-down");
+        //     }
+        //   } else {
+        //     if (!$(".nv__header-wrap").hasClass("slide-down")) {
+        //       $(".nv__header-wrap").removeClass("slideOutUp").addClass("slide-down");
+        //     }
+        //   }
+        //   t = i;
+        // });
 
+        
         // Header animation js start
 
 });
