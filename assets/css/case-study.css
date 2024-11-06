@@ -1,0 +1,92 @@
+/* START :: CASE STUDY LIST */
+.case-study{
+    padding-bottom:36px
+}
+.case-study .case-study-card .case-study-img{
+    border-radius:12px;
+    width:100%;
+    height:400px;
+    display:block;
+    object-fit:cover
+}
+.case-study .case-study-card .case-study-content{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 85.62%);
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    border-radius:12px;
+    padding:24px;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    align-items:baseline
+}
+.case-study .case-study-card .case-study-content .technology-stack .technology{
+    padding: 6px 16px 8px 16px;
+    border-radius: 22px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color:var(--dark-color);
+    background-color:var(--white-color);
+}
+.case-study .case-study-card .case-study-content .title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: var(--white-color);
+}
+.case-study .case-study-card .case-study-content .read-more span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    color: var(--white-color);
+    white-space: nowrap;
+}
+.case-study .case-study-card .case-study-content .read-more .divider{
+    background: linear-gradient(90deg, var(--white-color) 77.33%, rgba(153, 153, 153, 0) 100%);
+    height: 1px;
+    width: 100%;
+}
+.case-study .case-study-card .case-study-content .read-more img{
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 0;
+    transform: translateX(0);
+    transition: all 0.2s ease-in-out;
+}
+.case-study .case-study-card:hover .case-study-content .read-more img {
+    transition: all 0.2s ease-in-out;
+    transform: translateX(16px);
+}
+/* END :: CASE STUDY LIST */
+
+/* START :: PAGINATION */
+
+.pagination-wrapper .pagination-btn-wrapper{
+    gap:16px
+}
+.pagination-wrapper .pagination-btn-wrapper button{
+    width:40px;
+    height:40px;
+    background-color:var(--light-primary-color);
+    border:0;
+    border-radius:100px;
+    font-size:16px;
+    font-weight:700
+}
+.pagination-wrapper .pagination-btn-wrapper button img{
+    white:24px;
+    height:24px;
+}
+.pagination-wrapper .pagination-btn-wrapper button:hover, .pagination-wrapper .pagination-btn-wrapper button.active{
+    background-color:var(--primary-color);
+    color:var(--white-color);
+}
+.pagination-wrapper .pagination-btn-wrapper button:hover img, .pagination-wrapper .pagination-btn-wrapper button.active img{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(217deg) brightness(106%) contrast(106%);
+}
+/* END :: PAGINATION */
