@@ -176,5 +176,13 @@
 .next-previous-wrapper .btn{
     border-radius:12px;
 }
-
+.technology-stack .technology {
+    padding: 6px 16px 8px 16px;
+    border-radius: 22px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
 
