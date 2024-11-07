@@ -139,6 +139,42 @@
 }
 /* END :: CHALLENAGE FACED */
 
-
+/* START :: CLIENT PROFILE */
+.client-profile-wrapper .section-wrapper{
+    background-color:var(--light-primary-color);
+    border-radius:20px;
+    border-left:12px solid var(--primary-color);
+    padding-left:30px;
+    padding-right:30px;
+}
+.client-profile-wrapper .section-wrapper .section-title{
+    color:var(--dark-color);
+}
+.client-profile-wrapper .section-wrapper p{
+    color:var(--dark-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+/* END :: CLIENT PROFILE */
+.client-say-wrapper .client-name img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+.client-say-wrapper .client-name label{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--dark-color);
+    margin-bottom: 0;
+}
+.client-say-wrapper .client-name span{
+    font-weight: 400;
+    font-style: italic;
+}
+.next-previous-wrapper .btn{
+    border-radius:12px;
+}
 
 

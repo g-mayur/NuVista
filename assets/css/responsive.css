@@ -1,3 +1,4 @@
+
 @media only screen and (min-width:1681px){
     .container{
         max-width:1660px
@@ -15,9 +16,9 @@
         padding-top:80px;
         padding-bottom:80px;
     }
-    .hero-banner-wrapper .hero-content img {
+    /* .hero-banner-wrapper .hero-content .content-img img {
         max-width: 450px;
-    }
+    } */
     .about-us-wrapper .section-title{
         margin-bottom:12px
     }
@@ -46,6 +47,11 @@
     }
     
 }
+@media only screen and (max-width:1440.98px){
+    .challenges-wrapper.left-bg:before {
+        width: 81%;
+    }
+}
 @media only screen and (max-width:1400.98px){
     .container{
         max-width:100%;
@@ -54,6 +60,9 @@
     }
     .vision {
         padding-left: 30px;
+    }
+    .challenges-wrapper.left-bg:before {
+        width: 82%;
     }
 }
 @media only screen and (max-width:1280.98px){
@@ -100,10 +109,17 @@
         padding-top: 100px;
         padding-bottom: 100px;
     }
+    .challenges-wrapper.left-bg:before {
+        width: 83%;
+    }
 }
 @media only screen and (max-width:1250px){
     .header-wrapper ul{
         gap: 36px;
+    }
+    .challenges-wrapper .case-study-img {
+        width: 150px;
+        height: 150px;
     }
 }
 @media only screen and (max-width:1199px){
@@ -509,6 +525,12 @@
     .case-study {
         padding-bottom: 0;
     }
+    .challenges-wrapper.left-bg:before {
+        width: 63%;
+    }
+    .qoutes-wrapper.case-study-qoute .qoute {
+        padding: 40px;
+    }
 }
 @media only screen and (max-width:768.98px){
     .footer-wrapper .copy-right{
@@ -692,6 +714,42 @@
     .vision {
         padding-left: 0;
     }
+    .challenges-wrapper .icon-order-1{
+        order:1
+    }
+    .challenges-wrapper .content-order-2{
+        order:2
+    }
+    .challenges-wrapper.left-bg:before{
+        display:none
+    }
+    .challenges-wrapper .section-title {
+        color: Var(--primary-color) !important;
+        text-align:center;
+        display:block
+    }
+    .challenges-wrapper.left-bg p {
+        color: Var(--dark-color);
+    }
+    .challenges-wrapper{
+        border-bottom:1px solid var(--border-color)
+    }
+    .challenges-wrapper.b-0{
+        border-bottom:none
+    }
+    .qoutes-wrapper.case-study-qoute .qoute {
+        margin-bottom: 20px;
+    }
+    .challenges-wrapper .case-study-img {
+        margin-bottom:12px
+    }
+    .client-profile-wrapper .section-wrapper {
+        border-left: 8px solid var(--primary-color);
+        padding: 20px;
+    }
+    .qoutes-wrapper.case-study-qoute .qoute {
+        padding: 30px;
+    }
 }
 @media only screen and (max-width:575.98px){
     .service-stack-wrapper .aws-benefits-wrapper .right-side {
@@ -712,8 +770,9 @@
         height: 30px;
         display:block     
     }
-    .menu-wrapper{
+    .menu-wrapper {
         top: 84px;
+        height: calc(100vh - 84px);
     }
     .header-wrapper .btn {
         padding: 4px 14px;
@@ -729,6 +788,14 @@
         width: 30px;
         height: 30px;
         font-size: 14px;
+    }
+    .client-say-wrapper .client-name span {
+        font-weight: 400;
+        font-style: italic;
+        display: block;
+    }
+    .client-say-wrapper .client-name label {
+        text-align:left
     }
 }
 @media only screen and (max-width:412.98px){    
