@@ -9,9 +9,9 @@
     color:var(--primary-color);
 }
 .hero-banner-wrapper .hero-sub-title{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 700;
-    line-height: 46px;
+    line-height: 42px;
     color:var(--secondary-color);
     margin-bottom:8px
 }
@@ -22,7 +22,7 @@
 .hero-banner-wrapper .hero-content img{
     margin-left:auto;
     display:block;
-    max-width:600px
+    max-width:530px
 }
 .hero-banner-wrapper:before{
     content: '';

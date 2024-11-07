@@ -96,83 +96,85 @@
     max-width:100% !important;
     border-radius:12px;
 }
+.qoutes-wrapper.case-study-qoute .qoute {
+    background-color: var(--light-primary-color);
+    border-radius: 12px;
+    padding: 70px 70px;
+    margin-bottom:60px;
+}
 /* END :: CASE STUDY DETAILS HERO BANNER */
 
-/* START :: KEY RESULTS */
-.key-result-wrapper .section-title{
-    margin-bottom:24px;
+/* START :: CHALLENAGE FACED */
+.challenges-wrapper .case-study-img {
+    border: 1px solid var(--primary-color);
+    border-radius: 100%;
+    width: 170px;
+    height: 170px;
+    opacity: 0.2;
 }
-.key-result-wrapper:before{
+.challenges-wrapper .case-study-img img {
+    width: 100px;
+    height: 100px;
+}
+.challenges-wrapper.left-bg .section-title{
+    color:Var(--white-color) 
+}
+.challenges-wrapper p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color:Var(--dark-color);
+}
+.challenges-wrapper.left-bg p{
+    color:Var(--white-color);
+}
+.challenges-wrapper.left-bg:before{
     content:'';
+    width:79%;
+    height:100%;
     background-color:var(--primary-color);
     position:absolute;
     left:0;
     top:0;
-    width:50%;
-    height:100%;
 }
-.key-result-wrapper .business-solution-wrapper {
-    gap:40px;
-    padding-left:36px;
+/* END :: CHALLENAGE FACED */
+
+/* START :: CLIENT PROFILE */
+.client-profile-wrapper .section-wrapper{
+    background-color:var(--light-primary-color);
+    border-radius:20px;
+    border-left:12px solid var(--primary-color);
+    padding-left:30px;
+    padding-right:30px;
 }
-.key-result-wrapper .business-solution-wrapper .business-solution-content:first-child{
-    padding-bottom:40px;
-    border-bottom:1px solid rgb(27 71 156 / 10%)
+.client-profile-wrapper .section-wrapper .section-title{
+    color:var(--dark-color);
 }
-.key-result-wrapper .business-solution-wrapper .business-solution-content p{
+.client-profile-wrapper .section-wrapper p{
+    color:var(--dark-color);
+    font-weight: 400;
     font-size: 16px;
-    font-weight: 400;
     line-height: 28px;
-    color: var(--dark-color);
 }
-.key-result-wrapper .key-point-wrapper .section-title{
-    color:var(--white-color)
+/* END :: CLIENT PROFILE */
+.client-say-wrapper .client-name img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
 }
-.key-result-wrapper .key-point-wrapper .key-points-box .key-points .key-point-title{
-    width: fit-content;
-}
-.key-result-wrapper .key-point-wrapper .key-points-box .key-points .key-point-title .title{
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 70px;
-    color: var(--white-color);
-    width:fit-content
-}
-.key-result-wrapper .key-point-wrapper .key-points-box .key-points{
-    padding:24px;
-}
-.key-result-wrapper .key-point-wrapper .key-points-box .key-points p{
-    font-style: normal;
-    font-weight: 400;
+.client-say-wrapper .client-name label{
     font-size: 18px;
-    line-height: 30px;
-    color: var(--white-color);
-}
-.key-result-wrapper .key-point-wrapper .key-points-box .key-points .key-point-title span{
-    width: 24px;
-    height: 24px;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 24px;
-    text-align: center;
-    color: var(--white-color);
-    background-color: var(--primary-color);
-    border-radius:100%;
-    top: 0;
-    right: -8px;
+    line-height: 30px;
+    color: var(--dark-color);
+    margin-bottom: 0;
 }
-.key-result-wrapper .key-point-wrapper .key-points-box .col-lg-6:nth-child(1){
-    border-right:1px solid rgb(255 255 255 / 10%);
+.client-say-wrapper .client-name span{
+    font-weight: 400;
+    font-style: italic;
 }
-.key-result-wrapper .key-point-wrapper .key-points-box .col-lg-6:nth-child(2){
-    border-bottom:1px solid rgb(255 255 255 / 10%);
+.next-previous-wrapper .btn{
+    border-radius:12px;
 }
-.key-result-wrapper .key-point-wrapper .key-points-box .col-lg-6:nth-child(3){
-    border-top:1px solid rgb(255 255 255 / 10%);
-}
-.key-result-wrapper .key-point-wrapper .key-points-box .col-lg-6:nth-child(4){
-    border-left:1px solid rgb(255 255 255 / 10%);
-}
-/* END :: KEY RESULTS */
 
 
